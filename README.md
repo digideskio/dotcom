@@ -1,2 +1,2 @@
-# dotcom
-praytell dotcom
+# Praytell Dotcom
+Files for Praytell agency's website
