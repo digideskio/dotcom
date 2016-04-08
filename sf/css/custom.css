@@ -1,0 +1,78 @@
+/************* TEAM MEMBER THUMBNAILS ***************/
+
+#profile {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+#profile.large {
+	height: 255px;
+}
+#profile.small {
+	height: 190px;
+}
+
+@media all and (max-width: 1199px) {
+#profile.large {
+	height: 210px;
+}
+#profile.small {
+	height: 156px;
+}
+.team-2 h3 {
+	font-size: 24px;
+}
+}
+
+@media all and (max-width: 991px) {
+#profile.large {
+	height: 245px;
+}
+#profile.small {
+	height: 245px;
+}
+.team-2 h3 {
+	font-size: 24px;
+}
+}
+#profile img {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+#profile img.top:hover {
+	opacity: 0;
+}
+
+.team-member-title {
+	padding:15px;
+}
+
+/************* MOBILE ***************/
+
+@media all and (max-width: 767px) {
+section.double-pad {
+  padding: 80px 0;
+}
+}
+
+
+.move-up {
+	opacity:0.8;
+	-webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+}
+
+.move-up:hover {
+	opacity:1;
+  transform: translate3d(0px, -8px, 0px);
+  -webkit-transform: translate3d(0px, -8px, 0px);
+  -moz-transform: translate3d(0px, -8px, 0px);
+
+}
+
+.pad-bottom { padding-bottom:50px;}
