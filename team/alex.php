@@ -13,7 +13,7 @@ $breadcrumb="Who We Are";
 		
 				<div class="image-holder col-md-4 col-sm-4 pull-left">
 					<div class="background-image-holder">
-						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/adam-hover.jpg">
+						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/alex-hover.jpg">
 					</div>
 				</div>
 		
@@ -91,23 +91,23 @@ $breadcrumb="Who We Are";
 			</section>     
             
                    
-			<!--<<section class="twitter-1">
+			<section class="twitter-1">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-7 col-sm-9">
 							<i class="icon ion-social-twitter-outline text-white"></i>
 							<div class="twitter-feed">
-								<div class="tweets-feed tweets-slider" data-widget-id="628321945428316164">
+								<div class="tweets-feed tweets-slider" data-widget-id="730861667479896064">
 								</div>
 							</div>
-							<span class="text-white">Follow <a href="https://www.twitter.com/ADZNstudio">@ADZNstudio</a></span>
+							<span class="text-white">Follow <a href="https://www.twitter.com/alexhow">@alexhow</a></span>
 						</div>
 					</div>
 				</div>
-			</section>-->
+			</section>
             
 			<section class="instagram-1">
-				<div class="instafeed" data-user-name="speedtastic">
+				<div class="instafeed" data-user-name="alex_how">
 					<ul></ul>
 				</div>
 			
@@ -115,7 +115,7 @@ $breadcrumb="Who We Are";
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i>@speedtastic</h2><br>
+								<h2 class="text-white"><i class="icon social_instagram"></i>@alex_how</h2><br>
 							</a>
 						</div>
 					</div>

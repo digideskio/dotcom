@@ -13,7 +13,7 @@ $breadcrumb="Who We Are";
 		
 				<div class="image-holder col-md-4 col-sm-4 pull-left">
 					<div class="background-image-holder">
-						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/kendel-hover.jpg">
+						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/katie-hover.jpg">
 					</div>
 				</div>	
 		
@@ -129,7 +129,7 @@ $breadcrumb="Who We Are";
         $(function(){
     
             $("#typed").typed({
-                strings: ["Katie Siff^6000", "KG"],
+                strings: ["Katie Siff^6000"],
                 typeSpeed: 10,
                 backDelay: 2000,
             	backSpeed: -30,
