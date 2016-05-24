@@ -85,8 +85,8 @@ $breadcrumb="Who We Are";
 					</div>
 				</div>
 			</section>     
-            
-			<!--<section class="twitter-1">
+                
+			<section class="twitter-1">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-7 col-sm-9">
@@ -99,10 +99,10 @@ $breadcrumb="Who We Are";
 						</div>
 					</div>
 				</div>
-			</section>-->
+			</section>
             
 			
-			<!--<section class="instagram-1">
+			<section class="instagram-1">
 				<div class="instafeed" data-user-name="firklez">
 					<ul></ul>
 				</div>
@@ -116,7 +116,7 @@ $breadcrumb="Who We Are";
 						</div>
 					</div>
 				</div>
-			</section>-->
+			</section>
 	
     
     <?php 

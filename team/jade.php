@@ -64,8 +64,8 @@ $breadcrumb="Who We Are";
 								<div class="narrow-feature">
 									<i class="icon ion-android-walk"></i>
 									<div class="content">
-										<h1>8<sub>mins</sub></h1>
-										<p>How long it takes me to walk home from work</p>
+										<h1>7<sub>years</sub></h1>
+										<p>How long I lasted in Brooklyn before heading back to the west coast</p>
 									</div>
 								</div>
 							</div>

@@ -306,7 +306,7 @@ $breadcrumb="Who We Are";
 								<span>Director of Communications</span>
                             	</div>
 							</div>
-                            <!-- KELLY -->
+                            <!-- KENDEL -->
                             <div class="col-sm-6 team-member col-md-3">
                             	<div id="profile" class="small">
                                 	<a href="team/kendel">
@@ -315,7 +315,7 @@ $breadcrumb="Who We Are";
                                     </a>
                                 </div>
                                 <div>
-								<h4><a href="team/kelly">Kendel Goonis</a></h4>
+								<h4><a href="team/kendel">Kendel Goonis</a></h4>
 								<span>Copywriter</span>
                             	</div>
 							</div>
@@ -544,13 +544,13 @@ $breadcrumb="Who We Are";
                             <!-- SARAH -->
                             <div class="col-sm-6 team-member col-md-3">
                             	<div id="profile" class="small">
-                                	<a href="team/sarah-c">
+                                	<a href="team/sarah">
                                     <img alt="team member" src="img/team/sarah-hover.jpg" class="bottom">
                                     <img alt="team member" src="img/team/sarah.jpg" class="top">
                                     </a>
                                 </div>
                                 <div>
-								<h4><a href="team/katie">Sarah Chavey</a></h4>
+								<h4><a href="team/sarah">Sarah Chavey</a></h4>
 								<span>Senior Strategist</span>
                             	</div>
 							</div>
@@ -571,8 +571,8 @@ $breadcrumb="Who We Are";
                             <div class="col-sm-6 team-member col-md-3">
                             	<div id="profile" class="small">
                                 	<a href="team/olivia">
-                                    <img alt="team member" src="img/team/darcy-hover.jpg" class="bottom">
-                                    <img alt="team member" src="img/team/darcy.jpg" class="top">
+                                    <img alt="team member" src="img/team/olivia-hover.jpg" class="bottom">
+                                    <img alt="team member" src="img/team/olivia.jpg" class="top">
                                     </a>
                                 </div>
                                 <div>
@@ -593,8 +593,47 @@ $breadcrumb="Who We Are";
 								<span>Junior Copywriter</span>
                             	</div>
 							</div>
+                        <!-- MEAGAN -->
+                            <div class="col-sm-6 team-member col-md-3">
+                            	<div id="profile" class="small">
+                                	<a href="team/meagan">
+                                    <img alt="team member" src="img/team/meagan-hover.jpg" class="bottom">
+                                    <img alt="team member" src="img/team/meagan.jpg" class="top">
+                                    </a>
+                                </div>
+                                <div>
+								<h4><a href="team/alex">Meagan Fisher</a></h4>
+								<span>Senior PR Strategist</span>
+                            	</div>
+							</div>
+                        <!-- NICO -->
+                            <div class="col-sm-6 team-member col-md-3">
+                            	<div id="profile" class="small">
+                                	<a href="team/nico">
+                                    <img alt="team member" src="img/team/nico-hover.jpg" class="bottom">
+                                    <img alt="team member" src="img/team/nico.jpg" class="top">
+                                    </a>
+                                </div>
+                                <div>
+								<h4><a href="team/nico">Nico Gendron</a></h4>
+								<span>JR Strategist</span>
+                            	</div>
+							</div>
+                        <!-- PAIGE -->
+                            <div class="col-sm-6 team-member col-md-3">
+                            	<div id="profile" class="small">
+                                	<a href="team/paige">
+                                    <img alt="team member" src="img/team/paige-hover.jpg" class="bottom">
+                                    <img alt="team member" src="img/team/paige.jpg" class="top">
+                                    </a>
+                                </div>
+                                <div>
+								<h4><a href="team/paige">Paige Halleland</a></h4>
+								<span>Super Intern</span>
+                            	</div>
+							</div>
                         
-                            
+                        
 					</div><!--End Row-->
 				
 		
@@ -841,35 +880,59 @@ $breadcrumb="Who We Are";
 								<h4><a href="team/katie">Katie Siff</a></h4>
 								<span>Senior Strategist</span>
 							</div>
-                            <!-- Sarah C -->
+                            <!-- SARAH -->
 							<div class="col-xs-6 team-member col-md-3">
-								<a href="team/sarah-c"><img alt="team member" src="img/team/sarah.jpg"></a>
-								<h4><a href="team/katie">Sarah Chavey</a></h4>
+								<a href="team/sarah"><img alt="team member" src="img/team/sarah.jpg"></a>
+								<h4><a href="team/sarah">Sarah Chavey</a></h4>
 								<span>Senior Strategist</span>
 							</div>
                             <!-- Alexa -->
 							<div class="col-xs-6 team-member col-md-3">
-								<a href="team/sarah-c"><img alt="team member" src="img/team/alexa.jpg"></a>
-								<h4><a href="team/katie">Alexa Speed</a></h4>
+								<a href="team/alexa"><img alt="team member" src="img/team/alexa.jpg"></a>
+								<h4><a href="team/alexa">Alexa Speed</a></h4>
 								<span>Analyst</span>
 							</div>
                             <!-- Olivia -->
 							<div class="col-xs-6 team-member col-md-3">
-								<a href="team/sarah-c"><img alt="team member" src="img/team/darcy.jpg"></a>
-								<h4><a href="team/katie">Olivia Gulin</a></h4>
+								<a href="team/olivia"><img alt="team member" src="img/team/olivia.jpg"></a>
+								<h4><a href="team/olivia">Olivia Gulin</a></h4>
 								<span>Designer</span>
 							</div>
                            <!-- Alex -->
 							<div class="col-xs-6 team-member col-md-3">
 								<a href="team/alex"><img alt="team member" src="img/team/alex.jpg"></a>
-								<h4><a href="team/katie">Alex Howe</a></h4>
+								<h4><a href="team/alex">Alex Howe</a></h4>
 								<span>Junior Copywriter</span>
 							</div>
-                             <!-- Meagan -->
+                            <!-- Meagan -->
 							<div class="col-xs-6 team-member col-md-3">
-								<a href="team/meagan"><img alt="team member" src="img/team/darcy.jpg"></a>
-								<h4><a href="team/katie">Meagan Fisher</a></h4>
+								<a href="team/meagan"><img alt="team member" src="img/team/meagan.jpg"></a>
+								<h4><a href="team/meagan">Meagan Fisher</a></h4>
+								<span>Senior PR Strategist</span>
+							</div>
+                            <!-- Nico -->
+							<div class="col-xs-6 team-member col-md-3">
+								<a href="team/nico"><img alt="team member" src="img/team/nico.jpg"></a>
+								<h4><a href="team/nico">Nico Gendron</a></h4>
+								<span>JR Strategist</span>
+							</div>
+                            <!-- Olivia -->
+							<div class="col-xs-6 team-member col-md-3">
+								<a href="team/olivia"><img alt="team member" src="img/team/olivia.jpg"></a>
+								<h4><a href="team/olivia">Olivia Gulin</a></h4>
 								<span>Designer</span>
+							</div>
+                            <!-- KENDEL -->
+							<div class="col-xs-6 team-member col-md-3">
+								<a href="team/kendel"><img alt="team member" src="img/team/kendel.jpg"></a>
+								<h4><a href="team/kendel">Kendel Goonis</a></h4>
+								<span>Copywriter</span>
+							</div>
+                            <!-- PAIGE -->
+							<div class="col-xs-6 team-member col-md-3">
+								<a href="team/paige"><img alt="team member" src="img/team/paige.jpg"></a>
+								<h4><a href="team/paige">Paige Halleland</a></h4>
+								<span>Super Intern</span>
 							</div>
 					</div>
 				
