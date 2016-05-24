@@ -43,7 +43,7 @@ $breadcrumb="Who We Are";
 								<div class="narrow-feature">
 									<i class="icon ion-ios-musical-notes"></i>
 									<div class="content">
-										<h1>8<sub></sub></h1>
+										<h1>10<sub></sub></h1>
 										<p>music festivals I've attended so far #millennial</p>
 									</div>
 								</div>

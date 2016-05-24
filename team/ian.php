@@ -54,7 +54,7 @@ $breadcrumb="Who We Are";
 									<i class="icon pe-7s-study"></i>
 									<div class="content">
 										<h1>3<sub></sub></h1>
-										<p>number of times i changed majors</p>
+										<p>number of times I changed majors</p>
 									</div>
 								</div>
 							</div>

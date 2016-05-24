@@ -43,7 +43,7 @@ $breadcrumb="Who We Are";
 								<div class="narrow-feature">
 									<i class="icon ion-ios-star-outline"></i>
 									<div class="content">
-										<h1>12<sub>countries</sub></h1>
+										<h1>13<sub>countries</sub></h1>
 										<p>Performed in</p>
 									</div>
 								</div>

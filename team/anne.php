@@ -105,7 +105,7 @@ $breadcrumb="Who We Are";
 			</section>
             
 			
-			<!--<section class="instagram-1">
+			<section class="instagram-1">
 				<div class="instafeed" data-user-name="anneblessing">
 					<ul></ul>
 				</div>
@@ -120,7 +120,7 @@ $breadcrumb="Who We Are";
 						</div>
 					</div>
 				</div>
-			</section>-->
+			</section>
 	
     
     <?php 

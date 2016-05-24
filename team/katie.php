@@ -66,7 +66,7 @@ $breadcrumb="Who We Are";
 								<div class="narrow-feature">
 									<i class="icon pe-7s-speaker"></i>
 									<div class="content">
-										<h1>995<sub></sub></h1>
+										<h1>965<sub></sub></h1>
 										<p>Number of hours it would take to walk from my apartment in West Hollywood to my dad's house in New Hampshire</p>
 									</div>
 								</div>
@@ -94,18 +94,18 @@ $breadcrumb="Who We Are";
 						<div class="col-md-7 col-sm-9">
 							<i class="icon ion-social-twitter-outline text-white"></i>
 							<div class="twitter-feed">
-								<div class="tweets-feed tweets-slider" data-widget-id="697903307872935936">
+								<div class="tweets-feed tweets-slider" data-widget-id="735197438416392192">
 								</div>
 							</div>
-							<span class="text-white">Follow <a href="https://twitter.com/kendelgoon">@kendelgoon</a></span>
+							<span class="text-white">Follow <a href="https://twitter.com/katie_siff">@katie_siff</a></span>
 						</div>
 					</div>
 				</div>
 			</section>
             
 			
-			<!--<section class="instagram-1">
-				<div class="instafeed" data-user-name="">
+			<section class="instagram-1">
+				<div class="instafeed" data-user-name="katherinesiff">
 					<ul></ul>
 				</div>
 			
@@ -113,12 +113,12 @@ $breadcrumb="Who We Are";
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> @</h2><br>
+								<h2 class="text-white"><i class="icon social_instagram"></i> @katherinesiff</h2><br>
 							</a>
 						</div>
 					</div>
 				</div>
-			</section>-->
+			</section>
 	
     
     <?php 
