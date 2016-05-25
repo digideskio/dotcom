@@ -319,20 +319,6 @@ $breadcrumb="Who We Are";
 								<span>Copywriter</span>
                             	</div>
 							</div>
-                            
-                            <!-- LANA -->
-                            <div class="col-sm-6 team-member col-md-3">
-                            	<div id="profile" class="small">
-                                	<a href="team/lana">
-                                    <img alt="team member" src="img/team/lana-hover.jpg" class="bottom">
-                                    <img alt="team member" src="img/team/lana.jpg" class="top">
-                                    </a>
-                                </div>
-                                <div>
-								<h4><a href="team/lana">Lana Chan</a></h4>
-								<span>Account Director</span>
-                            	</div>
-							</div>
                             <!-- SIG -->
                             <div class="col-sm-6 team-member col-md-3">
                             	<div id="profile" class="small">
@@ -487,19 +473,6 @@ $breadcrumb="Who We Are";
                                 <div>
 								<h4><a href="team/tracy">Tracy Shi</a></h4>
 								<span>Designer</span>
-                            	</div>
-							</div>
-                            <!-- SYD -->
-                            <div class="col-sm-6 team-member col-md-3">
-                            	<div id="profile" class="small">
-                                	<a href="team/sydney">
-                                    <img alt="team member" src="img/team/sydney-hover.jpg" class="bottom">
-                                    <img alt="team member" src="img/team/sydney.jpg" class="top">
-                                    </a>
-                                </div>
-                                <div>
-								<h4><a href="team/sydney">Sydney Campos</a></h4>
-								<span>Operations Director</span>
                             	</div>
 							</div>
                             <!-- JILL -->
@@ -778,12 +751,6 @@ $breadcrumb="Who We Are";
 								<h4><a href="team/kelly">Kelly Kaufman</a></h4>
 								<span>Director of Communications</span>
 							</div>
-                            <!-- LANA -->
-							<div class="col-xs-6 team-member col-md-3">
-								<a href="team/lana"><img alt="team member" src="img/team/lana.jpg"></a>
-								<h4><a href="team/lana">Lana Chan</a></h4>
-								<span>Account Director</span>
-							</div>
                             <!-- SIG -->
 							<div class="col-xs-6 team-member col-md-3">
 								<a href="team/sigvard"><img alt="team member" src="img/team/sigvard.jpg"></a>
@@ -856,11 +823,6 @@ $breadcrumb="Who We Are";
 								<h4><a href="team/tracy">Tracy Shi</a></h4>
 								<span>Designer</span>
 							</div>
-                            <!-- SYD -->
-							<div class="col-xs-6 team-member col-md-3">
-								<a href="team/sydney"><img alt="team member" src="img/team/sydney.jpg"></a>
-								<h4><a href="team/sydney">Sydney Campos</a></h4>
-								<span>Operations Director</span>
 							</div>
                             <!-- JILL -->
 							<div class="col-xs-6 team-member col-md-3">

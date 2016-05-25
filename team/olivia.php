@@ -13,7 +13,7 @@ $breadcrumb="Who We Are";
 		
 				<div class="image-holder col-md-4 col-sm-4 pull-left">
 					<div class="background-image-holder">
-						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/nicole-hover.jpg">
+						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/olivia-hover.jpg">
 					</div>
 				</div>	
 		
@@ -32,7 +32,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-arc"></i>
+									<i class="icon ion-android-hand"></i>
 									<div class="content">
 										<h1>0</h1>
 										<p>time anybody has for that</p>
@@ -42,7 +42,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-smile"></i>
+									<i class="icon ion-ios-calculator-outline"></i>
 									<div class="content">
 										<h1>100<sub>%</sub></h1>
 										<p>gangster</p>
@@ -52,7 +52,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-study"></i>
+									<i class="icon ion-battery-full"></i>
 									<div class="content">
 										<h1>1<sub>hundo</sub></h1>
 										<p>how I keep it</p>
@@ -62,7 +62,7 @@ $breadcrumb="Who We Are";
                             
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-note"></i>
+									<i class="icon pe-7s-close"></i>
 									<div class="content">
 										<h1>0</h1>
 										<p>Scrubs wanted</p>

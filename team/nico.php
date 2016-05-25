@@ -32,7 +32,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-calculator"></i>
+									<i class="icon ion-compose"></i>
 									<div class="content">
 										<h1>4<sub></sub></h1>
 										<p>number of graffiti artists I've interviewed</p>
@@ -42,7 +42,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-ios-pulse"></i>
+									<i class="icon ion-android-globe"></i>
 									<div class="content">
 										<h1>2<sub></sub></h1>
 										<p>number of citizenships I have</p>
@@ -52,7 +52,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-icecream"></i>
+									<i class="icon ion-android-bar"></i>
 									<div class="content">
 										<h1>5<sub></sub></h1>
 										<p>months I bartended in Sydney, Australia</p>
@@ -62,7 +62,7 @@ $breadcrumb="Who We Are";
                             
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-drop"></i>
+									<i class="icon ion-ios-snowy"></i>
 									<div class="content">
 										<h1>11<sub></sub></h1>
 										<p>years I played ice hockey</p>
@@ -127,7 +127,7 @@ $breadcrumb="Who We Are";
         $(function(){
     
             $("#typed").typed({
-                strings: ["Nacho"],
+                strings: ["Nico Gendron^6000", "Nacho"],
                 typeSpeed: 10,
                 backDelay: 2000,
             	backSpeed: -30,

@@ -32,7 +32,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-study"></i>
+									<i class="icon pe-7s-cash"></i>
 									<div class="content">
 										<h1>154<sub></sub></h1>
 										<p>Amount of dollars spent on one omakase sushi dinner by myself, while sitting next to Amy Poehler, also by herself. Sake and tip not included</p>
@@ -43,7 +43,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-social-twitter-outline"></i>
+									<i class="icon pe-7s-prev"></i>
 									<div class="content">
 										<h1>507<sub></sub></h1>
 										<p>Somewhat realistic estimate of how many times I've seen Wayne's World since 1992</p>
@@ -54,7 +54,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="ion-social-youtube-outline"></i>
+									<i class="ion-beer"></i>
 									<div class="content">
 										<h1>0<sub></sub></h1>
 										<p>Number of times I have chipped my teeth by ripping bottle caps off beers with my mouth </p>
@@ -64,7 +64,7 @@ $breadcrumb="Who We Are";
                             
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-speaker"></i>
+									<i class="icon pe-7s-clock"></i>
 									<div class="content">
 										<h1>965<sub></sub></h1>
 										<p>Number of hours it would take to walk from my apartment in West Hollywood to my dad's house in New Hampshire</p>
