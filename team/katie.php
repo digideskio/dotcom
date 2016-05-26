@@ -48,6 +48,7 @@ $breadcrumb="Who We Are";
 										<h1>507<sub></sub></h1>
 										<p>Somewhat realistic estimate of how many times I've seen Wayne's World since 1992</p>
                                         <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -58,6 +59,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>0<sub></sub></h1>
 										<p>Number of times I have chipped my teeth by ripping bottle caps off beers with my mouth </p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>

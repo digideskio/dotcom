@@ -6,7 +6,7 @@ $breadcrumb="Who We Are";
 
 
 <?php 
-   include($_SERVER['DOCUMENT_ROOT'] . "/includes/header.php"); 
+    include($_SERVER['DOCUMENT_ROOT'] . "/includes/header.php"); 
 ?>   
 
 			<section class="image-block short-pad team-member">
@@ -25,7 +25,7 @@ $breadcrumb="Who We Are";
 								<div class="team-member-title pad-bottom">
                                     <div class="detail-line"></div>
                                     <h5>Art Director</h5>
-                                     <h1 class="text"><span id="typed"></span></h1>    
+                                        <h1 class="text"><span id="typed"></span></h1>    
 								</div>
                     	</div>
                         

@@ -47,6 +47,8 @@ $breadcrumb="Who We Are";
 										<h1>6:4<sub>ratio</sub></h1>
 										<p>of apartments inhabited to years lived in New York City</p>
                                         <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -57,6 +59,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>1.5<sub></sub></h1>
 										<p># of languages spoken</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>

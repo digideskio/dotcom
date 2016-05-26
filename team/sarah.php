@@ -46,6 +46,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>6<sub>years</sub></h1>
 										<p>in a row attending SXSW, equally due to the music and the BBQ</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -66,6 +67,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>2<sub></sub></h1>
 										<p>half marathons completed</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
