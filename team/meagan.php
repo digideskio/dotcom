@@ -32,7 +32,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-star"></i>
+									<i class="icon pe-7s-photo"></i>
 									<div class="content">
 										<h1>21<sub></sub></h1>
 										<p>ski mountains conquered</p>
@@ -42,7 +42,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-coffee"></i>
+									<i class="icon ion-happy"></i>
 									<div class="content">
 										<h1>5<sub></sub></h1>
 										<p>times a day that dachsshunds make me laugh/cry</p>
@@ -52,7 +52,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-attention"></i>
+									<i class="icon pe-7s-plane"></i>
 									<div class="content">
 										<h1>1<sub></sub></h1>
 										<p>times I've jumped out of a plane</p>
@@ -62,7 +62,7 @@ $breadcrumb="Who We Are";
                             
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-social-twitter-outline"></i>
+									<i class="icon pe-7s-drop"></i>
 									<div class="content">
 										<h1>30<sub></sub></h1>
 										<p> number of days I went without running water while sea kayaking in Alaska. Take from that what you will.</p>

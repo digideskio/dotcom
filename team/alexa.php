@@ -32,7 +32,7 @@ $breadcrumb="Who We Are";
 
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-car"></i>
+									<i class="icon ion-radio-waves"></i>
 									<div class="content">
 										<h1>8,650<sub>episodes</sub></h1>
 										<p>of podcasts listened to since 2011 (that's 1,501 hours or 2 months)</p>
@@ -42,7 +42,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-ios-speedometer-outline"></i>
+									<i class="icon ion-ios-paw-outline"></i>
 									<div class="content">
 										<h1>2</h1>
 										<p>cats owned</p>
@@ -52,7 +52,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-ios-navigate-outline"></i>
+									<i class="icon pe-7s-map-2"></i>
 									<div class="content">
 										<h1>2:1</h1>
 										<p>ratio of cows to people from my home county in upstate NY</p>
@@ -62,7 +62,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-ios-lightbulb-outline"></i>
+									<i class="icon pe-7s-note"></i>
 									<div class="content">
 										<h1>3</h1>
 										<p>adult coloring books owned</p>

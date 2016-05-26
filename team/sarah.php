@@ -32,7 +32,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-car"></i>
+									<i class="icon ion-ios-paw"></i>
 									<div class="content">
 										<h1>8:1<sub></sub></h1>
 										<p>numbers of dogs fostered to number of dogs that never left</p>
@@ -42,7 +42,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-like"></i>
+									<i class="icon pe-7s-music"></i>
 									<div class="content">
 										<h1>6<sub>years</sub></h1>
 										<p>in a row attending SXSW, equally due to the music and the BBQ</p>
@@ -52,7 +52,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-ios-monitor-outline"></i>
+									<i class="icon ion-fork"></i>
 									<div class="content">
 										<h1>200<sub></sub></h1>
 										<p>personal record of Swedish meatballs made in one setting</p>

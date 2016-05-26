@@ -33,7 +33,7 @@ $breadcrumb="Who We Are";
 
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-car"></i>
+									<i class="icon ion-ios-personadd-outline"></i>
 									<div class="content">
 										<h1>2</h1>
 										<p>kinds of people in the world: those that can extrapolate from incomplete data.</p>
@@ -43,7 +43,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-ios-speedometer-outline"></i>
+									<i class="icon ion-jet"></i>
 									<div class="content">
 										<h1>II</h1>
 										<p>World War I was obsessed with as a kid (I was born on V-E day!)</p>
@@ -53,7 +53,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-ios-navigate-outline"></i>
+									<i class="icon pe-7s-world"></i>
 									<div class="content">
 										<h1>Two</h1>
 										<p>number of doubly landlocked countries in the world</p>
@@ -63,7 +63,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-ios-lightbulb-outline"></i>
+									<i class="icon pe-7s-star"></i>
 									<div class="content">
 										<h1>Deux<sub>part</sub></h1>
 										<p>the amazing sequel to Hot Shots</p>
