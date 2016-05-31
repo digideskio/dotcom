@@ -459,7 +459,7 @@ $breadcrumb="Who We Are";
                                 </div>
                                 <div>
 								<h4><a href="team/nico">Nico Gendron</a></h4>
-								<span>JR Strategist</span>
+								<span>Junior Strategist</span>
                             	</div>
 							</div>
                             <!-- NATE -->
@@ -524,7 +524,7 @@ $breadcrumb="Who We Are";
                                 </div>
                                 <div>
 								<h4><a href="team/paige">Paige Halleland</a></h4>
-								<span>Super Intern</span>
+								<span>Junior Account Coordinator</span>
                             	</div>
 							</div>
                             <!-- SEAN -->
@@ -820,7 +820,7 @@ $breadcrumb="Who We Are";
 							<div class="col-xs-6 team-member col-md-3">
 								<a href="team/nico"><img alt="team member" src="img/team/nico.jpg"></a>
 								<h4><a href="team/nico">Nico Gendron</a></h4>
-								<span>JR Strategist</span>
+								<span>Junior Strategist</span>
 							</div>
                             <!-- NATE -->
 							<div class="col-xs-6 team-member col-md-3">
@@ -850,7 +850,7 @@ $breadcrumb="Who We Are";
 							<div class="col-xs-6 team-member col-md-3">
 								<a href="team/paige"><img alt="team member" src="img/team/paige.jpg"></a>
 								<h4><a href="team/paige">Paige Halleland</a></h4>
-								<span>Super Intern</span>
+								<span>Junior Account Coordinator</span>
 							</div>
                             <!-- SEAN -->
 							<div class="col-xs-6 team-member col-md-3">
