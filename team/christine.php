@@ -46,6 +46,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>48<sub></sub></h1>
 										<p>visits to Disney World</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -56,6 +57,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>874,255,300<sub></sub></h1>
 										<p>smiles per year on Belle my bike</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>

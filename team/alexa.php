@@ -46,6 +46,8 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>2</h1>
 										<p>cats owned</p>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -66,6 +68,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>3</h1>
 										<p>adult coloring books owned</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>

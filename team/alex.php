@@ -47,6 +47,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>II</h1>
 										<p>World War I was obsessed with as a kid (I was born on V-E day!)</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -67,6 +68,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>Deux<sub>part</sub></h1>
 										<p>the amazing sequel to Hot Shots</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>

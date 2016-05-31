@@ -46,6 +46,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>8<sub>hours</sub></h1>
 										<p>of WNYC listened a week</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -56,6 +57,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>10<sub></sub></h1>
 										<p>Toni Morrison novels read</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>

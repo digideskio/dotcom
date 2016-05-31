@@ -46,6 +46,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>2<sub></sub></h1>
 										<p>number of citizenships I have</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -66,6 +67,7 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>11<sub></sub></h1>
 										<p>years I played ice hockey</p>
+                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
