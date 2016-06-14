@@ -45,7 +45,7 @@ $breadcrumb="Who We Are";
 									<i class="icon ion-happy"></i>
 									<div class="content">
 										<h1>5<sub></sub></h1>
-										<p>times a day that dachshunds make me laugh/cry</p>
+										<p>times a day that dachsshunds make me laugh/cry</p>
 									</div>
 								</div>
 							</div>

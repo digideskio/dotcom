@@ -300,39 +300,7 @@ $breadcrumb="What We Do";
             	
 			<section class="no-pad fullscreen-projects">
             
-                <div class="project col-sm-6 image-holder">
-					<div class="background-image-holder">
-						<img alt="Project Image" class="background-image" src="img/casestudy-vivino.jpg">
-					</div>
-					<div class="hover-state text-center">
-						<a href="cases/vivino" class="vertical-align">
-							<div class="hover-content">
-								<div class="detail-line"></div>
-								<h5 class="text-white">Vivino + Girl Scouts</h5>
-								<h2 class="text-white">PR Partnership Awareness</h2>
-								<i class="icon arrow_right"></i>
-							</div>
-						</a>
-					</div>
-				</div>
-            
 				<div class="project col-sm-6 image-holder">
-					<div class="background-image-holder">
-						<img alt="Project Image" class="background-image" src="img/casestudy-veryshortstory.jpg">
-					</div>
-					<div class="hover-state text-center">
-						<a href="cases/very-short-story" class="vertical-align">
-							<div class="hover-content">
-								<div class="detail-line"></div>
-								<h5 class="text-white">Logitech</h5>
-								<h2 class="text-white">K380 Very Short Story Twitter Contest + 
-Influencer Campaign</h2>
-								<i class="icon arrow_right"></i>
-							</div>
-						</a>
-					</div>
-				</div>
-                <div class="project col-sm-6 image-holder">
 					<div class="background-image-holder">
 						<img alt="Project Image" class="background-image" src="img/casestudy-barnesnoble.jpg">
 					</div>

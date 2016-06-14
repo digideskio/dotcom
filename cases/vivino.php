@@ -65,7 +65,7 @@ $breadcrumb="Case Study";
 							
 							<li>
 								<div class="background-image-holder">
-									<img alt="Slide Background" class="background-image" src="../img/vivino-4.jpg">
+									<img alt="Slide Background" class="background-image" src="../img/vivino-2.jpg">
 								</div>
 							</li>
                             
@@ -98,7 +98,7 @@ $breadcrumb="Case Study";
 						<ul class="slides">
 							<li>
 								<div class="background-image-holder">
-									<img alt="Slide Background" class="background-image" src="../img/vivino-2.jpg">
+									<img alt="Slide Background" class="background-image" src="../img/vivino-4.jpg">
 								</div>
 							</li>
 							
