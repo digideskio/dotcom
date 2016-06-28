@@ -423,6 +423,19 @@ $breadcrumb="Who We Are";
 								<span>Senior Strategist</span>
                             	</div>
 							</div>
+                            <!-- MARISA -->
+                            <div class="col-sm-6 team-member col-md-3">
+                            	<div id="profile" class="small">
+                                	<a href="team/marisa">
+                                    <img alt="team member" src="img/team/marisa-hover.jpg" class="bottom">
+                                    <img alt="team member" src="img/team/marisa.jpg" class="top">
+                                    </a>
+                                </div>
+                                <div>
+								<h4><a href="team/marisa">Marisa Bettencourt</a></h4>
+								<span>Senior Media Strategist</span>
+                            	</div>
+							</div>
                             <!-- MEAGAN -->
                             <div class="col-sm-6 team-member col-md-3">
                             	<div id="profile" class="small">
@@ -817,7 +830,13 @@ $breadcrumb="Who We Are";
 								<h4><a href="team/maripat">Maripat Finigan</a></h4>
 								<span>Senior Strategist</span>
 							</div>
-                            <!-- Meagan -->
+                            <!-- MARISA -->
+                            <div class="col-xs-6 team-member col-md-3">
+								<a href="team/marisa"><img alt="team member" src="img/team/marisa.jpg"></a>
+								<h4><a href="team/marisa">Marisa Bettencourt</a></h4>
+								<span>Senior Media Strategist</span>
+							</div>
+                            <!-- MEAGAN -->
 							<div class="col-xs-6 team-member col-md-3">
 								<a href="team/meagan"><img alt="team member" src="img/team/meagan.jpg"></a>
 								<h4><a href="team/meagan">Meagan Fisher</a></h4>
@@ -829,7 +848,7 @@ $breadcrumb="Who We Are";
 								<h4><a href="team/molly">Molly Hess</a></h4>
 								<span>Senior Strategist</span>
 							</div>
-                            <!-- Nico -->
+                            <!-- NICO -->
 							<div class="col-xs-6 team-member col-md-3">
 								<a href="team/nico"><img alt="team member" src="img/team/nico.jpg"></a>
 								<h4><a href="team/nico">Nico Gendron</a></h4>
