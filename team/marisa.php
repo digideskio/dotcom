@@ -13,7 +13,7 @@ $breadcrumb="Who We Are";
 		
 				<div class="image-holder col-md-4 col-sm-4 pull-left">
 					<div class="background-image-holder">
-						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/Ryan-hover.jpg">
+						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/Marisa-hover.jpg">
 					</div>
 				</div>
 		
@@ -32,7 +32,7 @@ $breadcrumb="Who We Are";
 
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-refresh"></i>
+									<i class="icon ion-ios-paw"></i>
 									<div class="content">
 										<h1>37<sub>%</sub></h1>
 										<p>percentage of my Instagram profile that is consumed by photos of cute animals</p>
@@ -42,17 +42,17 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-medal"></i>
+									<i class="icon pe-7s-car"></i>
 									<div class="content">
 										<h1>0</h1>
-										<p>number of speeding tickets I've received. </p>
+										<p>number of speeding tickets I've received.<br>&nbsp;</br><br>&nbsp;</br></p>
 									</div>
 								</div>
 							</div>
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-ios-sunny-outline"></i>
+									<i class="pe-7s-anchor"></i>
 									<div class="content">
 										<h1>1</h1>
 										<p>number of times I've been stranded on a boat in the open oceans</p>
@@ -62,7 +62,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-calculator"></i>
+									<i class="icon ion-ios-nutrition-outline"></i>
 									<div class="content">
 										<h1>11</h1>
 										<p>Number of years I've been vegetarian and number of years my family has begged me to "just try a litte chicken this time!"</p>
@@ -106,7 +106,7 @@ $breadcrumb="Who We Are";
 			</section>
             
 			<section class="instagram-1">
-				<div class="instafeed" data-user-name="ryan.delafosse">
+				<div class="instafeed" data-user-name="marisabett">
 					<ul></ul>
 				</div>
 			
