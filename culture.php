@@ -144,7 +144,7 @@ $breadcrumb="Culture";
 								<p>
 									There are more tools in the communications toolkit than ever before, tools we want to leverage on behalf of nonprofits in need of a little help. If you work with a nonprofit that needs strategic support, be it around media relations, website development, social media, advertising, or all of the above, then you’ve come to the right place. 
 								</p>
-								<a class="btn" href="passion/">Learn More</a>                               
+								<a class="btn" href="passion/index.html">Learn More</a>                               
 							</div>
 						</div>
 					</div>

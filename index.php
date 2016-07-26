@@ -146,7 +146,7 @@ $breadcrumb="";
                     	<h2 class="text-white">Passion Project</h2>
 						<p class="text-white">We're giving away services for free to causes we care about. We want to help nonprofits that have an incredible story to tell but could use a little help from friends. We think it’s important. And, we’re just getting started. </p>
                        
-						<a class="btn btn-white btn-sm" href="passion/">Learn More</a>
+						<a class="btn btn-white btn-sm" href="passion/index.html">Learn More</a>
 					</div>
 				</div>
 			</section>

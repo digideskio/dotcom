@@ -130,6 +130,19 @@ $breadcrumb="Contact";
                                 
 								<div class="item">
 									<div class="description">
+										<h2>Account Executive</h2>
+                                        <h5>San Francisco, CA</h5>
+										<p>
+											To support our rapidly growing family, we’re looking to hire an account manager with 3-5 years of experience.
+										</p>
+									</div>
+									<div class="action">
+										<a href="jobs/account-executive.php" class="btn">Learn More</a>
+									</div>
+								</div>
+                                
+                                <div class="item">
+									<div class="description">
 										<h2>Junior Strategist</h2>
                                         <h5>Brooklyn, NY</h5>
 										<p>
