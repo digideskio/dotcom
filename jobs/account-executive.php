@@ -39,7 +39,7 @@ $breadcrumb="Jobs";
 							
                                 <p class="super-lead">Praytell is looking for a digital account executive to join our growing creative communications agency. Our San Francisco office is on a roll we’re looking for a savvy and smart team player to help support our expanding client roster. It’s an exciting time to join team Praytell, it really is. With PRWeek Agency of the Year, Holmes Best New Agency and PRWeek Best Places to Work awards under our belt, our 45+ team has never been stronger. We've got killer client partners across a mix of industries, a ridiculous new business pipeline, culture you can’t beat, and some serious momentum. If you enjoy managing forward thinking clients and working in alongside teams of smart and passionate people, this is the gig you’ve been waiting for (assuming you’re awesome, crush client-facing communication and also want to change the world). </p>
                                 
-                                <p class="lead">To support our rapidly growing family, we’re looking to hire an account manager with 3-5 years of experience. If you’re able to remain cool while managing a plethora of cool clients, know all about good (and consistent!) client support and partnership, enjoy strategic thinking and strategic relationship management, and can handle the full gamut below, we’d love to hear from you. Also will help if you know social platforms inside and out.</p>
+                                <p class="lead">To support our rapidly growing family, we’re looking to hire an account manager with 3-5 years of experience and if you have B2B experience that’s huge plus. If you’re able to remain cool while managing a plethora of cool clients, know all about good (and consistent!) client support and partnership, enjoy strategic thinking and strategic relationship management, and can handle the full gamut below, we’d love to hear from you. Also will help if you know social platforms inside and out.</p>
 
 								<p class="lead">Send us an email at jobs@praytellagency.com that tells us why you're the right person to join us on this incredible journey (GIFs = bonus points). And like any good pitch, the subject line matters, big time.</p>
 
@@ -83,7 +83,8 @@ $breadcrumb="Jobs";
 <h3 class="color-accent">Requirements</h3>
                                 
                                 <ul class="bullets">
-                                	<li>3-5 years of experience at a digital or social agency or in-house with consumer brands</li>
+                                	<li>3-5 years of experience at a digital or social agency or in-house brand</li>
+                                    <li>B2B and consumer brand experience</li>
                                 	<li>Ability to offer strategic advice and recommendations that drive results</li>
                                 	<li>Strong client relationship building and management skills</li>
                                 	<li>Analytical knowhow</li>

@@ -140,7 +140,7 @@ $breadcrumb="Contact";
 										<a href="jobs/account-executive.php" class="btn">Learn More</a>
 									</div>
 								</div>
-                                
+<!--                               
                                 <div class="item">
 									<div class="description">
 										<h2>Junior Strategist</h2>
@@ -216,7 +216,9 @@ $breadcrumb="Contact";
 					</div>
 				</div>
 			</section>            
-            
+
+-->
+
             <!--------- TWITTER FEED ------------>
 			
 			<section class="twitter-1  hidden-xs">
