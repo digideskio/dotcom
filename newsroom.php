@@ -10,17 +10,17 @@ $breadcrumb="Newsroom";
             <!--------- DESKTOP VERSION ------------>
             
             
-            <section class="text-hero">
+            <section class="text-hero gradient-bg">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-sm-10">
-							<h1><span id="typed"><span></h1>
+							<h1 class="text-white"><span id="typed"><span></h1>
 						</div>
 					</div>
 				
 					<div class="row">
 						<div class="col-md-9 col-sm-12">
-							<p class="super-lead">
+							<p class="super-lead text-white">
 								We’re exclusively focused on getting ink for our clients.<br>And yet, sometimes journalists will catch wind of what’s happening over here on Dean St. and write us up. Here’s proof:
 							</p>
 						</div>	
@@ -92,6 +92,25 @@ $breadcrumb="Newsroom";
                     
                     <!------------Post with Image------------>
                         
+						<!--<div class="col-md-4 col-sm-6">
+							<div class="blog-snippet-1 image-snippet">
+						
+								<div class="background-image-holder dark-overlay">
+									<img alt="Slide Background" class="background-image" src="img/news-sabre.jpg">
+								</div>
+						
+								<span class="date alt-font uppercase">DATE HERE</span>
+								<h5>Announcement Title Here</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+								</p>
+								<a class="text-link" href="LINK HERE" target="_blank">Read More<i class="icon arrow_right"></i></a>
+							</div>
+						</div>-->
+                    
+                    
+                    <!------------Post------------>
+                        
 						<div class="col-md-4 col-sm-6">
 							<div class="blog-snippet-1 image-snippet">
 						
@@ -108,12 +127,13 @@ $breadcrumb="Newsroom";
 							</div>
 						</div> 
                         
+                        
                     <!------------Post------------>
                         
 						<div class="col-md-4 col-sm-6">
 							<div class="blog-snippet-1 image-snippet">
 						
-								<div class="background-image-holder gradient-overlay">
+								<div class="background-image-holder dark-overlay">
 									<img alt="Slide Background" class="background-image" src="img/blog-prweek.jpg">
 								</div>
 								<span class="date alt-font uppercase">December 8, 2015</span>
@@ -147,7 +167,7 @@ $breadcrumb="Newsroom";
 						<div class="col-md-4 col-sm-6">
 							<div class="blog-snippet-1 image-snippet">
                             
-								<div class="background-image-holder gradient-overlay">
+								<div class="background-image-holder dark-overlay">
 									<img alt="Slide Background" class="background-image" src="img/blog-andy.jpg">
 								</div>
                                 
@@ -185,7 +205,7 @@ $breadcrumb="Newsroom";
 						<div class="col-md-4 col-sm-6">
 							<div class="blog-snippet-1 image-snippet">
 						
-								<div class="background-image-holder gradient-overlay">
+								<div class="background-image-holder dark-overlay">
 									<img alt="Slide Background" class="background-image" src="img/blog-brooklynreader.jpg">
 								</div>
 						
@@ -198,72 +218,6 @@ $breadcrumb="Newsroom";
 							</div>
 						</div>
                         
-                    <!------------ARCHIVE------------>
-                        
-						<!--<div class="col-md-4 col-sm-6">
-							<div class="blog-snippet-1 image-snippet">
-						
-								<div class="background-image-holder dark-overlay">
-									<img alt="Slide Background" class="background-image" src="img/blog-logitech.jpg">
-								</div>
-						
-								<span class="date alt-font uppercase">January 9, 2015</span>
-								<h5>Logitech and Betabrand make technology stylish at CES</h5>
-								<p>
-									The idea for the style campaign came from a brainstorm session with agency partners Praytell Strategy and Finn Partners.
-								</p><p>&nbsp;</p>
-								<a class="text-link" href="http://www.prweek.com/article/1328555/logitech-betabrand-technology-stylish-ces" target="_blank">Read the rest<i class="icon arrow_right"></i></a>
-							</div>
-						</div> 
-                        
-                        
-						<div class="col-md-4 col-sm-6">
-							<div class="blog-snippet-1 image-snippet">
-						
-								<div class="background-image-holder gradient-overlay">
-									<img alt="Slide Background" class="background-image" src="img/blog-bestplacetowork.jpg">
-								</div>
-								<span class="date alt-font uppercase">December 1, 2014</span>
-								<h5>PRWeek Best Place to Work</h5>
-								<p>
-									Praytell Strategy provides a friendly atmosphere almost universally praised by respondents. They say the agency allows staffers to be transparent with their bosses and lets supervisors create an environment where team members are comfortable and creative.
-								</p>
-								<a class="text-link" href="http://praytellstrategy.com/blog/as-seen-on-pr-weeks-best-places-to-work-2014/" target="_blank">Read the rest<i class="icon arrow_right"></i></a>
-							</div>
-						</div>
-                                               
-                    
-						<div class="col-md-4 col-sm-6">
-							<div class="blog-snippet-1 image-snippet">
-						
-								<div class="background-image-holder dark-overlay">
-									<img alt="Slide Background" class="background-image" src="img/blog-newsweek.jpg">
-								</div>
-								<span class="date alt-font uppercase">November 19, 2014</span>
-								<h5>10 Companies That Are Just as Great as Google</h5>
-								<p>
-									Google isn’t the only pioneer in its field. Praytell Strategy is a communications agency that blends social media and digital strategy with traditional PR, bringing together media, design, and tech in a way that’s never been done before.
-								</p>
-								<a class="text-link" href="http://www.newsweek.com/career/10-companies-are-just-great-google-and-hiring-now" target="_blank">Read the rest<i class="icon arrow_right"></i></a>
-							</div>
-						</div>-->
-                    
-                    <!------------Post------------>
-                    
-						<!--<div class="col-md-4 col-sm-6">
-							<div class="blog-snippet-1 image-snippet overlay">
-                            
-								<div class="background-image-holder">
-									<img alt="Slide Background" class="background-image" src="img/blog-fastcompany.jpg">
-								</div>
-								<span class="date alt-font uppercase">August 21, 2014</span>
-								<h5>The Startup That Gambled On Free Work To Build A Million-Dollar Business</h5>
-								<p>
-									Most creative professionals are advised not to work for free. But PR firm Praytell Strategy made a bet on pro bonoand later cashed in.
-								</p>
-								<a class="text-link" href="http://www.fastcompany.com/3034596/hit-the-ground-running/the-startup-that-gambled-on-free-work-to-build-a-million-dollar-busin" target="_blank">Read the rest<i class="icon arrow_right"></i></a>
-							</div>
-						</div>-->
                         
                         
                     

@@ -14,18 +14,18 @@ $breadcrumb="What We Do";
             <!--------- DESKTOP VERSION ------------>
             
             
-<section class="text-hero">
+<section class="text-hero gradient-bg">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-10 col-sm-10">
-							<h1>We offer full service communications services <span id="typed"></span></h1>
+							<h1 class="text-white">We offer full service communications services <span id="typed"></span></h1>
 						</div>
 					</div>
 				
 					<div class="row">
 						<div class="col-md-9 col-sm-12">
-							<p class="super-lead">
-                            We've tried to find a better way to explain it, but so far, this sums it up. If you can think of a PR, social or marketing challenge, we’re up to the task. If not, we can direct you to someone awesome who is. For our longer list of services, <a href="services">click here</a>; otherwise scroll down to see some of our ideas in action. 
+							<p class="super-lead text-white">
+                            We've tried to find a better way to explain it, but so far, this sums it up. If you can think of a PR, social or marketing challenge, we’re up to the task. If not, we can direct you to someone awesome who is. For our longer list of services, <a href="services" class="text-white"><em><strong>click here</strong></em></a>; otherwise scroll down to see some of our ideas in action. 
 							</p>
 						</div>	
 					</div>
@@ -53,6 +53,11 @@ $breadcrumb="What We Do";
 					</div>
 				
 					<div class="row">
+						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
+								<div class="">
+									<img alt="The High End - Praytell Partner" class="" src="img/partners/color/thehighend.png">
+								</div>
+						</div>
                     
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
@@ -66,12 +71,12 @@ $breadcrumb="What We Do";
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
-									<img alt="Anheuser Busch - Praytell Partner" class="" src="img/partners/color/anheuser-busch.png">
+									<img alt="Barnes &amp; Noble - Praytell Partner" class="" src="img/partners/color/barnes-and-noble.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
-									<img alt="Barnes &amp; Noble - Praytell Partner" class="" src="img/partners/color/barnes-and-noble.png">
+									<img alt="Betabrand - Praytell Partner" class="" src="img/partners/color/betabrand.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
@@ -79,14 +84,9 @@ $breadcrumb="What We Do";
 									<img alt="Bluepoint - Praytell Partner" class="" src="img/partners/color/bluepoint.png">
 								</div>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
-								<div class="">
-									<img alt="Capsule - Praytell Partner" class="" src="img/partners/color/capsule.png">
-								</div>
-						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
-									<img alt="Chloe + Isabel - Praytell Partner" class="" src="img/partners/color/chloe-isabel.png">
+									<img alt="Breckenridge - Praytell Partner" class="" src="img/partners/color/breckenridge.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Greater Good">
@@ -109,9 +109,9 @@ $breadcrumb="What We Do";
 									<img alt="EasyCare - Praytell Partner" class="" src="img/partners/color/easycare.png">
 								</div>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Greater Good">
+						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
-									<img alt="ECPAT - Praytell Partner" class="" src="img/partners/color/ecpat.png">
+									<img alt="Elysian - Praytell Partner" class="" src="img/partners/color/elysian.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
@@ -139,11 +139,6 @@ $breadcrumb="What We Do";
 									<img alt="Gold Eagle - Praytell Partner" class="" src="img/partners/color/gold-eagle.png">
 								</div>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
-								<div class="">
-									<img alt="Goldstar - Praytell Partner" class="" src="img/partners/color/goldstar.png">
-								</div>
-						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
 									<img alt="Golden Road - Praytell Partner" class="" src="img/partners/color/golden-road.png">
@@ -151,12 +146,12 @@ $breadcrumb="What We Do";
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
-									<img alt="Hyatt - Praytell Partner" class="" src="img/partners/color/hyatt.png">
+									<img alt="Guitar Center - Praytell Partner" class="" src="img/partners/color/guitarcenter.png">
 								</div>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Greater Good">
+						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
-									<img alt="Hyatt Thrive - Praytell Partner" class="" src="img/partners/color/hyatt-thrive.png">
+									<img alt="Hyatt - Praytell Partner" class="" src="img/partners/color/hyatt.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Greater Good">
@@ -167,6 +162,11 @@ $breadcrumb="What We Do";
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
 								<div class="">
 									<img alt="Kobalt - Praytell Partner" class="" src="img/partners/color/kobalt.png">
+								</div>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
+								<div class="">
+									<img alt="Kununu - Praytell Partner" class="" src="img/partners/color/kununu.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Greater Good">
@@ -189,14 +189,14 @@ $breadcrumb="What We Do";
 									<img alt="Logitech G - Praytell Partner" class="" src="img/partners/color/logitech-g.png">
 								</div>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Greater Good">
+						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
-									<img alt="MAC Aids Fund - Praytell Partner" class="" src="img/partners/color/mac-aids-fund.png">
+									<img alt="LuMee - Praytell Partner" class="" src="img/partners/color/lumee.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Greater Good">
 								<div class="">
-									<img alt="Natural Light - Praytell Partner" class="" src="img/partners/color/natty-light.png">
+									<img alt="MAC Aids Fund - Praytell Partner" class="" src="img/partners/color/mac-aids-fund.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Greater Good">
@@ -209,19 +209,13 @@ $breadcrumb="What We Do";
 									<img alt="Nextbit - Praytell Partner" class="" src="img/partners/color/nextbit.png">
 								</div>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
+						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
+								<div class="">
+									<img alt="Percolate - Praytell Partner" class="" src="img/partners/color/percolate.png">
+								</div>
+						</div>						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
 									<img alt="ShockTop - Praytell Partner" class="" src="img/partners/color/shock-top.png">
-								</div>
-						</div>
-						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
-								<div class="">
-									<img alt="skillshare - Praytell Partner" class="" src="img/partners/color/skillshare.png">
-								</div>
-						</div>
-						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
-								<div class="">
-									<img alt="Snagfilms - Praytell Partner" class="" src="img/partners/color/snagfilms.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
@@ -231,7 +225,12 @@ $breadcrumb="What We Do";
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
 								<div class="">
-									<img alt="Splice - Praytell Partner" class="" src="img/partners/color/splice.png">
+									<img alt="GoPro - Praytell Partner" class="" src="img/partners/color/gopro.png">
+								</div>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
+								<div class="">
+									<img alt="Snap Kitchen - Praytell Partner" class="" src="img/partners/color/snapkitchen.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
@@ -242,6 +241,11 @@ $breadcrumb="What We Do";
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
 									<img alt="Swagbucks - Praytell Partner" class="" src="img/partners/color/swagbucks.png">
+								</div>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
+								<div class="">
+									<img alt="Tile - Praytell Partner" class="" src="img/partners/color/tile.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
@@ -259,6 +263,17 @@ $breadcrumb="What We Do";
 									<img alt="Ultimate Ears - Praytell Partner" class="" src="img/partners/color/ue.png">
 								</div>
 						</div>
+						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Greater Good">
+								<div class="">
+									<img alt="Umano - Praytell Partner" class="" src="img/partners/color/umano.png">
+								</div>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Greater Good">
+								<div class="">
+									<img alt="UN Aids - Praytell Partner" class="" src="img/partners/color/unaids.png">
+								</div>
+						</div>
+                        
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
 								<div class="">
 									<img alt="Vacatia - Praytell Partner" class="" src="img/partners/color/vacatia.png">
@@ -266,27 +281,12 @@ $breadcrumb="What We Do";
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
 								<div class="">
-									<img alt="View - Praytell Partner" class="" src="img/partners/color/view.png">
-								</div>
-						</div>
-						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
-								<div class="">
 									<img alt="Vivino - Praytell Partner" class="" src="img/partners/color/vivino.png">
-								</div>
-						</div>
-						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
-								<div class="">
-									<img alt="Vivitar - Praytell Partner" class="" src="img/partners/color/vivitar.png">
 								</div>
 						</div>
 						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Technology">
 								<div class="">
 									<img alt="Waze - Praytell Partner" class="" src="img/partners/color/waze.png">
-								</div>
-						</div>
-						<div class="col-md-2 col-sm-3 col-xs-4 project" data-filter="Lifestyle">
-								<div class="">
-									<img alt="What Watch - Praytell Partner" class="" src="img/partners/color/whatwatch.png">
 								</div>
 						</div>
                         
@@ -406,8 +406,8 @@ $breadcrumb="What We Do";
         $(function(){
     
             $("#typed").typed({
-                strings: ["^2000", " for brands that matter and clients that get it."],
-                typeSpeed: 2,
+                strings: ["^500", " for brands that matter and clients that get it."],
+                typeSpeed: -5,
                 backDelay: 2000,
 				// backspacing speed
             	backSpeed: -30,

@@ -102,21 +102,6 @@ $breadcrumb="Who We Are";
 			</section>
             
 			
-			<section class="instagram-1">
-				<div class="instafeed" data-user-name="meaganfisher">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> @meaganfisher</h2><br>
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
 	
     
     <?php 

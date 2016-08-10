@@ -13,7 +13,7 @@ $breadcrumb="Who We Are";
 		
 				<div class="image-holder col-md-4 col-sm-4 pull-left">
 					<div class="background-image-holder">
-						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/jill-hover.jpg">
+						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/jill.jpg">
 					</div>
 				</div>	
 		

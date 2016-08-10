@@ -86,20 +86,6 @@ $breadcrumb="Who We Are";
 				</div>
 			</section>     
             
-			<!--<section class="twitter-1">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-7 col-sm-9">
-							<i class="icon ion-social-twitter-outline text-white"></i>
-							<div class="twitter-feed">
-								<div class="tweets-feed tweets-slider" data-widget-id="710949460680024064">
-								</div>
-							</div>
-							<span class="text-white">Follow <a href="https://twitter.com/jaredmpaul">@jaredmpaul</a></span>
-						</div>
-					</div>
-				</div>
-			</section>-->
             
 			
 			<section class="instagram-1">

@@ -68,6 +68,7 @@
   opacity: 0.8;
 }
 
+
 .overlay-primary:before {
   content: '';
   position: absolute;
@@ -79,6 +80,7 @@
   background: #0054a6;
   opacity: 0.9;
 }
+
 .overlay .container {
   position: relative;
   z-index: 2;
@@ -116,12 +118,29 @@
   /* W3C */
 }
 
+
+.overlay-color-gradient:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #0054a6;
+  opacity: 1;
+  background: linear-gradient(to bottom, rgba(0, 86, 166, 0.9) 10%, rgba(0, 117, 166, 0.75) 75%);
+  /* W3C */
+}
+
+
+
 /*!
 // 2. Global & Helper Classes
 // --------------------------------------------------*/
 body {
-  background: #eee;
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #353535;
+  font-family: 'Lato', 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: #777;
@@ -133,7 +152,7 @@ body {
   max-width: 1580px;
   margin: 0px auto;
   position: relative;
-  z-index: 1;
+  /*z-index: 1;*/
 }
 .main-container {
   clear: both;
@@ -214,6 +233,19 @@ body.boxed nav {
 .dark-bg {
   background-color: #222 !important;
 }
+
+.color-bg {
+  background-color: #0054a6 !important;
+}
+
+.gradient-bg {
+    background: #0054a6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #0054a6, #00b5be); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0054a6, #00b5be); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0054a6, #00b5be); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0054a6, #00b5be); /* Standard syntax (must be last) */
+}
+
 /*!
 // 4. Typography
 // --------------------------------------------------*/
@@ -338,6 +370,11 @@ h5 {
   color: #333333 !important;
   font-weight: 300;
 }
+
+.text-tracking {
+	letter-spacing: 8px;
+}
+
 /*!
 // 5. Buttons
 // --------------------------------------------------*/
@@ -353,7 +390,7 @@ a:active {
   text-decoration: none;
 }
 .btn {
-  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -1826,8 +1863,8 @@ nav .cart .tag {
 }
 .text-hero h1 {
   color: #0054a6;
-  font-size: 64px;
-  line-height: 72px;
+  font-size: 50px;
+  line-height: 60px;
   font-weight: 300;
 }
 .text-hero p {
@@ -1870,6 +1907,7 @@ nav .cart .tag {
 .image-tile h2 {
 	
   font-size: 28px;
+  font-weight: 300;
   margin-bottom: 0px;
   line-height: 32px;
   transition: all 0.2s ease;
@@ -2249,7 +2287,6 @@ iframe {
 }
 .uppercase {
   text-transform: uppercase;
-  font-weight: bold;
   color: #0054a6;
   display: inline-block;
   margin: 24px 0px 16px 0px;

@@ -22,7 +22,7 @@ $breadcrumb="Who We Are";
                     
 						<div class="col-md-8 col-sm-8 col-md-offset-5 col-sm-offset-5">
                         <div class="row">
-								<div class="team-member-title pad-bottom">
+								<div class="team-member-title">
                                     <div class="detail-line"></div>
                                     <h5>Designer</h5>
                                         <h1 class="text"><span id="typed"></span></h1>
@@ -46,7 +46,6 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>6<sub>years</sub></h1>
 										<p>living in the US</p>
-                                        <p>&nbsp;</p>
                                         <p>&nbsp;</p>
 									</div>
 								</div>
@@ -75,7 +74,7 @@ $breadcrumb="Who We Are";
 						</div>
 					
 					</div>
-                </div>
+			
 			</section>
             
 			<section class="action-strip-2">
@@ -104,21 +103,6 @@ $breadcrumb="Who We Are";
 			</section>
             
 			
-			<section class="instagram-1">
-				<div class="instafeed" data-user-name="qiangtracyshi">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> @qiangtracyshi</h2><br>
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
 	
     
     <?php 

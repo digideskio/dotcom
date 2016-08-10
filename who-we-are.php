@@ -37,7 +37,7 @@ $breadcrumb="Who We Are";
 						<div class="col-sm-6">
 							<div class="text-block">
 								<div class="detail-line"></div>
-								<h2>The Praytell Teams</h2>
+								<h2>The Praytell Team</h2>
 							</div>
 						</div>
 						
@@ -394,7 +394,7 @@ $breadcrumb="Who We Are";
                                 </div>
                                 <div>
 								<h4><a href="team/maggie-lee">Maggie Lee</a></h4>
-								<span>Strategist</span>
+								<span>Copywriter</span>
                             	</div>
 							</div>
                             <!-- MAGGIE S -->
@@ -498,7 +498,7 @@ $breadcrumb="Who We Are";
                                 </div>
                                 <div>
 								<h4><a href="team/nicole">Nicole Cloutier</a></h4>
-								<span>Strategist</span>
+								<span>Senior Strategist</span>
                             	</div>
 							</div>
                             <!-- NESTRON -->
@@ -636,6 +636,7 @@ $breadcrumb="Who We Are";
 				
 		
 				</div>
+                
 			</section>
             
             
@@ -816,7 +817,7 @@ $breadcrumb="Who We Are";
 							<div class="col-xs-6 team-member col-md-3">
 								<a href="team/maggie-lee"><img alt="team member" src="img/team/maggie.jpg"></a>
 								<h4><a href="team/maggie-lee">Maggie Lee</a></h4>
-								<span>Strategist</span>
+								<span>Copywriter</span>
 							</div>
                             <!-- MAGGIE S -->
 							<div class="col-xs-6 team-member col-md-3">
@@ -864,7 +865,7 @@ $breadcrumb="Who We Are";
 							<div class="col-xs-6 team-member col-md-3">
 								<a href="team/nicole"><img alt="team member" src="img/team/nicole.jpg"></a>
 								<h4><a href="team/nicole">Nicole Cloutier</a></h4>
-								<span>Strategist</span>
+								<span>Senior Strategist</span>
 							</div>
                             <!-- NESTRON -->
 							<div class="col-xs-6 team-member col-md-3">
@@ -926,9 +927,10 @@ $breadcrumb="Who We Are";
 								<h4><a href="team/tracy">Tracy Shi</a></h4>
 								<span>Designer</span>
 							</div>
-							</div>
+							
+                          </div><!-- End Row -->
                     
-					</div>
+			
             
 				</div>
 
@@ -936,7 +938,7 @@ $breadcrumb="Who We Are";
             
             <!--------- TWITTER FEED ------------>
 			
-			<section class="twitter-1  hidden-xs">
+			<!--<section class="twitter-1  hidden-xs">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-7 col-sm-9">
@@ -950,11 +952,11 @@ $breadcrumb="Who We Are";
 						</div>
 					</div>
 				</div>
-			</section>
+			</section>-->
             
             <!--------- INSTAGRAM FEED ------------>
             
-			<section class="instagram-1 hidden-xs">
+			<!--<section class="instagram-1 hidden-xs">
 				<div class="instafeed" data-user-name="praytellagency">
 					<ul></ul>
 				</div>
@@ -969,12 +971,12 @@ $breadcrumb="Who We Are";
 						</div>
 					</div>
 				</div>
-			</section>
+			</section>-->
             
             
-	<?php 
+<?php 
    include($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php"); 
-?>  
+?> 
 
 <script>
         $(function(){

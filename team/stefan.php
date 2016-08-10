@@ -47,8 +47,6 @@ $breadcrumb="Who We Are";
 										<h1>6:4<sub>ratio</sub></h1>
 										<p>of apartments inhabited to years lived in New York City</p>
                                         <p>&nbsp;</p>
-                                        <p>&nbsp;</p>
-                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -59,7 +57,6 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>1.5<sub></sub></h1>
 										<p># of languages spoken</p>
-                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -106,21 +103,6 @@ $breadcrumb="Who We Are";
 			</section>
             
 			
-			<section class="instagram-1">
-				<div class="instafeed" data-user-name="sembry">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> @sembry</h2><br>
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
 	
     
     <?php 

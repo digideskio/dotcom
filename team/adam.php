@@ -6,7 +6,7 @@ $breadcrumb="Who We Are";
 
 
 <?php 
-    include($_SERVER['DOCUMENT_ROOT'] . "/includes/header.php"); 
+   include($_SERVER['DOCUMENT_ROOT'] . "/includes/header.php"); 
 ?>   
 
 			<section class="image-block short-pad team-member">
@@ -25,7 +25,7 @@ $breadcrumb="Who We Are";
 								<div class="team-member-title pad-bottom">
                                     <div class="detail-line"></div>
                                     <h5>Art Director</h5>
-                                        <h1 class="text"><span id="typed"></span></h1>    
+                                     <h1 class="text"><span id="typed"></span></h1>    
 								</div>
                     	</div>
                         
@@ -105,21 +105,6 @@ $breadcrumb="Who We Are";
 				</div>
 			</section>
             
-			<section class="instagram-1">
-				<div class="instafeed" data-user-name="ADZNstudio">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> @ADZNstudio</h2><br>
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
 	
     
     <?php 

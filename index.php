@@ -10,6 +10,24 @@ $breadcrumb="";
 ?>  
 
 
+			<!--------POPUP MODAL---------->
+            
+            <div class="foundry_modal text-center image-bg dark-overlay" data-time-delay="0" data-hide-after="10000">
+                 <div class="background-image-holder">
+                 <img alt="Background" class="background-image" src="img/celebration.jpg" />
+                 </div>
+                                    
+                 <img src="img/project-logo.png" width="200" />
+                 <h2 class="uppercase text-white text-tracking">Praytell joins the<br>Project Worldwide Family</h2>
+                 <p class="lead text-white mb48">
+                 Lorem ipsum dolor sit amet consectetur adipiscing<br>elit do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 </p>
+                
+                <a class="btn btn-lg text-white" href="http://www.praytellagency.com/blog/" target="_blank">Read All About It</a>
+            </div>
+                                
+                                
+			<!------END POPUP MODAL-------->
 
 			<section class="hero-slider large-image">
 				<ul class="slides">
@@ -46,7 +64,7 @@ $breadcrumb="";
             
 				<div class="col-sm-4">
 					<div class="image-tile">
-						<div class="background-image-holder overlay-primary">
+						<div class="background-image-holder overlay-color-gradient">
                         
                         <video autoplay loop>
                             <source src="/video/whatwedo.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
@@ -65,7 +83,7 @@ $breadcrumb="";
             
 				<div class="col-sm-4">
 					<div class="image-tile">
-						<div class="background-image-holder overlay-primary">
+						<div class="background-image-holder overlay-color-gradient">
                         <video autoplay loop>
                             <source src="/video/crewbw.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
                             <source src="video/crewbw.webm" type='video/webm; codecs="vp8, vorbis"' />
@@ -85,7 +103,7 @@ $breadcrumb="";
 			
 				<div class="col-sm-4 image-tile-wrapper">
 					<div class="image-tile">
-						<div class="background-image-holder overlay-primary">
+						<div class="background-image-holder overlay-color-gradient">
                         
                         <video autoplay loop>
                             <source src="/video/newsroom.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
@@ -105,34 +123,37 @@ $breadcrumb="";
 				</div>
 			</section>
 			
-<section class="title-text-divider">
+			
+            <section class="large-pad">
 		
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 text-center">
-							<h1 class="move-up">Do The Right Thing.</h1>
-							<h4>We don’t have a fancy set of core values, just four simple words to live by and strive for.</h4>
-                            <p class="lead">Our client and vendor partners can be assured that we’ll do the right thing. It’s an ethos that extends to our Passion Project, the way we treat each other internally, and the way we live outside the office.</p>
+						<div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+                            <p class="super-lead move-up">
+                            Praytell is a Creative Communications agency blending traditional PR with new school social and digital. An experienced team with media, design, and tech chops ready to shake things up.
+                            </p>
 					</div>
 				</div>
 			</div>
 			</section>
+            
 			
 			<section class="no-pad">
 				<div class="col-md-6 feature-box">
-					<div class="background-image-holder overlay-dark-gradient">
-                    
+					<div class="background-image-holder overlay-light-gradient">
+						<div class="background-image-holder">
+							<img alt="Slide Background" class="background-image" src="img/lighthouse-mobile.jpg">
+						</div>
                         <video autoplay loop>
-                            <source src="/video/radiator.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-                            <source src="video/radiator.webm" type='video/webm; codecs="vp8, vorbis"' />
-						<img alt="Slide Background" class="background-image" src="img/home_passionproject.jpg">
+                            <source src="/video/lighthouse.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+                            <source src="/video/lighthouse.webm" type='video/webm; codecs="vp8, vorbis"' />
                         </video>
 					</div>
 				
 					<div class="content">
-						<h2 class="text-white">Radiator</h2>
-						<p class="text-white">It's our literary journal featuring the work of some of Brooklyn and NYC’s best writers. It’s a decidedly analog exercise in this 140 character obsessed world, and we couldn’t be more excited.<br>&nbsp;</p>
-						<a class="btn btn-white btn-sm" href="http://www.praytellagency.com/blog/radiator-launch-the-full-recap/" target="_blank">Read More</a>
+						<h2 class="">Lighthouse</h2>
+						<p class="">The idea is that when companies are wondering what to do, they need to head for the lighthouse. Such a lighthouse is off the shore of Popham Beach in Maine, where you first touched water.<br>&nbsp;</p>
+						<a class="btn btn-sm" href="/lighthouse">Read More</a>
                          
 					</div>
 				</div>
@@ -146,43 +167,12 @@ $breadcrumb="";
                     	<h2 class="text-white">Passion Project</h2>
 						<p class="text-white">We're giving away services for free to causes we care about. We want to help nonprofits that have an incredible story to tell but could use a little help from friends. We think it’s important. And, we’re just getting started. </p>
                        
-						<a class="btn btn-white btn-sm" href="passion/index.html">Learn More</a>
+						<a class="btn btn-white btn-sm" href="passion/">Learn More</a>
 					</div>
 				</div>
 			</section>
 			
-            <!--------- TWITTER FEED ------------>
-			<section class="twitter-2 hidden-xs">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-							<i class="icon ion-social-twitter-outline"></i>
-							<div class="twitter-feed">
-								<div class="tweets-feed tweets-slider" data-widget-id="595585640454090752">
-							
-								</div>
-							</div>
-							<span>Follow <a href="https://www.twitter.com/praytellAgency">@PraytellAgency</a> for more updates</span>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-            <!--------- INSTAGRAM FEED ------------>
-			<section class="instagram-1 hidden-xs">
-				<div class="instafeed" data-user-name="praytellagency">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-								<h2 class="text-white"><i class="icon social_instagram"></i> Praytell-gram</h2><br>
-								<span class="text-white">It gets weird...</span>
-						</div>
-					</div>
-				</div>
-			</section>
+
 
 <?php 
    include($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php"); 

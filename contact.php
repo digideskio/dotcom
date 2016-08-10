@@ -128,133 +128,32 @@ $breadcrumb="Contact";
 									We are currently hiring! We're always interested in hearing from killer candidates who are looking for something different. <a href="mailto:jobs@praytellagency.com">Drop us a line</a> and tell us a bit about yourself, we'll try to respond as quickly as we can. 
 								</p>
                                 
+							
+                                
+                                
+                                
 								<div class="item">
 									<div class="description">
 										<h2>Account Executive</h2>
                                         <h5>San Francisco, CA</h5>
 										<p>
-											To support our rapidly growing family, we’re looking to hire an account manager with 3-5 years of experience.
+											Praytell is looking for a digital account executive to join our growing creative communications agency. 
 										</p>
 									</div>
 									<div class="action">
-										<a href="jobs/account-executive.php" class="btn">Learn More</a>
-									</div>
-								</div>
-<!--                               
-                                <div class="item">
-									<div class="description">
-										<h2>Junior Strategist</h2>
-                                        <h5>Brooklyn, NY</h5>
-										<p>
-											To support our rapidly growing team, we’re looking to hire a junior strategist with consumer brand experience. 
-										</p>
-									</div>
-									<div class="action">
-										<a href="http://www.praytellagency.com/jobs/junior-strategist" class="btn">Learn More</a>
-									</div>
-								</div>
-
-								<div class="item">
-									<div class="description">
-										<h2>Junior Account Executive</h2>
-                                        <h5>Brooklyn, NY</h5>
-										<p>
-											To support our rapidly growing team, we’re looking to hire a junior account executive with 1-3 years of experience working at an agency or in-house. 
-										</p>
-									</div>
-									<div class="action">
-										<a href="http://www.praytellagency.com/jobs/junior-account-executive" class="btn">Learn More</a>
-									</div>
-								</div>
-
-
-                                
-								<div class="item">
-									<div class="description">
-										<h2>Senior PR Strategist</h2>
-                                        <h5>Brooklyn, NY</h5>
-										<p>
-											To support our rapidly growing team, we’re looking to hire a senior PR pro with consumer brand experience. 
-										</p>
-									</div>
-									<div class="action">
-										<a href="http://www.praytellagency.com/jobs/senior-pr-strategist" class="btn">Learn More</a>
+										<a href="jobs/account-executive" class="btn">Learn More</a>
 									</div>
 								</div>
                                 
-                                
-                                
-								<div class="item">
-									<div class="description">
-										<h2>Social Media / PR Intern</h2>
-                                        <h5>Brooklyn, NY</h5>
-										<p>
-											Praytell Strategy is looking for smart, savvy social media interns to come into the Brooklyn office and help the team out 2-3 days/week this summer/fall. 
-										</p>
-									</div>
-									<div class="action">
-										<a href="http://www.praytellagency.com/jobs/social-pr-intern" class="btn">Learn More</a>
-									</div>
-								</div>
-                                
-								<div class="item">
-									<div class="description">
-										<h2>Social Media Strategy Intern</h2>
-                                        <h5>San Francisco, CA</h5>
-										<p>
-											Do you love YouTube stars? Are you crazy about Vine video creators? Did you pre-order Tyler Oakley’s new book? Do you obsess about Jenna Marbles and have you been super pumped to go VidCon? Do you know what MCNs are? 
-										</p>
-									</div>
-									<div class="action">
-										<a href="http://www.praytellagency.com/jobs/social-media-intern" class="btn">Learn More</a>
-									</div>
 								</div>
                                 
                                 
 							</div>
-						</div>
+						</div><!-- End Row -->
 					</div>
-				</div>
+				
 			</section>            
-
--->
-
-            <!--------- TWITTER FEED ------------>
-			
-			<section class="twitter-1  hidden-xs">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-7 col-sm-9">
-							<i class="icon social_twitter text-white"></i>
-							<div class="twitter-feed">
-								<div class="tweets-feed tweets-slider" data-widget-id="595585640454090752">
-							
-								</div>
-							</div>
-							<span class="text-white">Follow <a href="https://www.twitter.com/praytellAgency">@PraytellAgency</a> for more updates</span>
-						</div>
-					</div>
-				</div>
-			</section>
             
-            <!--------- INSTAGRAM FEED ------------>
-            
-			<section class="instagram-1 hidden-xs">
-				<div class="instafeed" data-user-name="praytellagency">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> Praytell-gram</h2><br>
-								<span class="text-white">It gets weird...</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
 
 
 <?php 
