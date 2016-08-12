@@ -72,7 +72,7 @@ $breadcrumb="Jobs";
 								<h3 class="color-accent">Qualifications</h3>
                                 
                                 <ul class="bullets">
-                                	<li>Must be a Junior or Senior in college or a recent graduate.</li>
+                                	<li>Must be a recent college graduate. We need someone available Monday through Friday for a minimum of 3 hours each day for this exciting role.</li>
                                 	<li>Have experience or the desire to learn how to curate compelling and interesting video content.</li>
                                 	<li>Able to craft copy to highlight and showcase said content.</li>
                                 	<li>Be able to identify and monitor the ongoings of top Digital/Video Creators in the YouTube/Vine/Snapchat/Twitter world.</li>

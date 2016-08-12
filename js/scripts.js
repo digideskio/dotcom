@@ -245,74 +245,56 @@ $(document).ready(function(){
     $('.testimonials').flexslider({ directionNav: false });
     $('.image-slider').flexslider({ directionNav: false });
     
-   // Twitter Feed
+    // Twitter Feed
+       jQuery('.tweets-feed').each(function(index) {
+           jQuery(this).attr('id', 'tweets-' + index);
+       }).each(function(index) {
+           
+           var TweetConfig = {
+               "id": jQuery('#tweets-' + index).attr('data-widget-id'),
+               "domId": '',
+               "maxTweets": jQuery('#tweets-' + index).attr('data-amount'),
+               "enableLinks": true,
+               "showUser": true,
+               "showTime": true,
+               "dateFunction": '',
+               "showRetweet": false,
+               "customCallback": handleTweets
+           };
+           function handleTweets(tweets) {
+               var x = tweets.length;
+               var n = 0;
+               var element = document.getElementById('tweets-' + index);
+               var html = '<ul class="slides">';
+               while (n < x) {
+                   html += '<li>' + tweets[n] + '</li>';
+                   n++;
+               }
+               html += '</ul>';
+               element.innerHTML = html;
+               return html;
+           }
+           twitterFetcher.fetch(TweetConfig);
+       });
 
-    $('.tweets-feed').each(function(index) {
-        $(this).attr('id', 'tweets-' + index);
-    }).each(function(index) {
-
-        function handleTweets(tweets) {
-            var x = tweets.length;
-            var n = 0;
-            var element = document.getElementById('tweets-' + index);
-            var html = '<ul class="slides">';
-            while (n < x) {
-                html += '<li>' + tweets[n] + '</li>';
-                n++;
-            }
-            html += '</ul>';
-            element.innerHTML = html;
-            return html;
-        }
-
-        twitterFetcher.fetch($('#tweets-' + index).attr('data-widget-id'), '', 5, true, true, true, '', false, handleTweets);
-
-    });
-    
     // Instagram Feed
+    
+    if($('.instafeed').length){
+    	jQuery.fn.spectragram.accessData = {
+			accessToken: '353905890.5fb61a8.2ca992c196744b4d8beb76721bafcb7d',
+			clientID: '5fb61a87907148958624944d4dff837d'
+		};	
 
-    jQuery.fn.spectragram.accessData = {
-        accessToken: '1406933036.fedaafa.feec3d50f5194ce5b705a1f11a107e0b',
-        clientID: 'fedaafacf224447e8aef74872d3820a1'
-    };
-
-    $('.instafeed').each(function() {
-        $(this).children('ul').spectragram('getUserFeed', {
-            query: $(this).attr('data-user-name')
+        $('.instafeed').each(function() {
+            var feedID = $(this).attr('data-user-name');
+            $(this).children('ul').spectragram('getUserFeed', {
+                query: feedID,
+                max: 12
+            });
         });
-    });
-    
-    // Countdown
-	
-	$('.countdown').each(function(){
-		$(this).countdown({until: new Date($(this).attr('data-date'))});
-	});
-    
-    // Project Planner Form
-    
-    $('.planner-option').click(function(){
-    	$(this).toggleClass('active');
-    	if($(this).children('input').is(':checked')){
-    		$(this).children('input').prop('checked', false);
-    	}else{
-    		$(this).children('input').prop('checked', true);
-    	}
-    });
-    
-    $('.planner-option,.planner-radio').each(function(){
-    	var value = $(this).find('span').text();
-    	$(this).find('input').attr('value', value);
-    });
-    
-    $('.mock-radio').click(function(){
-    	$(this).closest('.radio-group').find('.mock-radio').removeClass('active');
-    	$(this).toggleClass('active');
-    	if($(this).closest('.planner-radio').children('input').is(':checked')){
-    		$(this).closest('.planner-radio').children('input').prop('checked', false);
-    	}else{
-    		$(this).closest('.planner-radio').children('input').prop('checked', true);
-    	}
-    });
+    }   
+
+   
     
     // Contact form code
 
@@ -562,31 +544,54 @@ function capitaliseFirstLetter(string)
     
     // Multipurpose Modals
     
-    if($('.foundry_modal').length){
-    	var modalScreen = $('<div class="modal-screen">').appendTo('body');
+    jQuery('.foundry_modal[modal-link]').remove();
+
+    if($('.foundry_modal').length && (!jQuery('.modal-screen').length)){
+        // Add a div.modal-screen if there isn't already one there.
+        var modalScreen = jQuery('<div />').addClass('modal-screen').appendTo('body');
+
     }
-    
-    $('.modal-container').each(function(index) {
-        if($(this).find('iframe[src]').length){
-        	$(this).find('.foundry_modal').addClass('iframe-modal');
-        	var iframe = $(this).find('iframe');
-        	var src = iframe.attr('src');
-        	iframe.attr('src', '');
-        	iframe.data('data-src');
-        	iframe.attr('data-src', src);
-        }
-        $(this).find('.btn-modal').attr('modal-link', index);
-        $(this).find('.foundry_modal').clone().appendTo('body').attr('modal-link', index).prepend($('<i class="ti-close close-modal">'));
+
+    jQuery('.foundry_modal').click(function(){
+        jQuery(this).addClass('modal-acknowledged');
+    });
+
+    jQuery(document).on('wheel mousewheel scroll', '.foundry_modal, .modal-screen', function(evt){
+        $(this).get(0).scrollTop += (evt.originalEvent.deltaY); 
+        return false;
     });
     
-    $('.btn-modal').click(function(){
-    	var linkedModal = $('section').closest('body').find('.foundry_modal[modal-link="' + $(this).attr('modal-link') + '"]');
-        $('.modal-screen').toggleClass('reveal-modal');
+    $('.modal-container:not([modal-link])').each(function(index) {
+        if(jQuery(this).find('iframe[src]').length){
+        	jQuery(this).find('.foundry_modal').addClass('iframe-modal');
+        	var iframe = jQuery(this).find('iframe');
+        	iframe.attr('data-src',iframe.attr('src'));
+            iframe.attr('src', '');
+
+        }
+        jQuery(this).find('.btn-modal').attr('modal-link', index);
+
+        // Only clone and append to body if there isn't already one there
+        if(!jQuery('.foundry_modal[modal-link="'+index+'"]').length){
+            jQuery(this).find('.foundry_modal').clone().appendTo('body').attr('modal-link', index).prepend(jQuery('<i class="ti-close close-modal">'));
+        }
+    });
+    
+    $('.btn-modal').unbind('click').click(function(){
+    	var linkedModal = jQuery('.foundry_modal[modal-link="' + jQuery(this).attr('modal-link') + '"]'),
+            autoplayMsg = "";
+        jQuery('.modal-screen').toggleClass('reveal-modal');
         if(linkedModal.find('iframe').length){
-        	linkedModal.find('iframe').attr('src', linkedModal.find('iframe').attr('data-src'));
+            if(linkedModal.find('iframe').attr('data-autoplay') === '1'){
+                var autoplayMsg = '&autoplay=1'
+            }
+        	linkedModal.find('iframe').attr('src', (linkedModal.find('iframe').attr('data-src') + autoplayMsg));
+        }
+        if(linkedModal.find('video').length){
+            linkedModal.find('video').get(0).play();
         }
         linkedModal.toggleClass('reveal-modal');
-        return false;
+        return false; 
     });
     
     // Autoshow modals
@@ -609,36 +614,91 @@ function capitaliseFirstLetter(string)
             },delay);
         }
 	});
-    
-    $('.close-modal:not(.modal-strip .close-modal)').click(function(){
-    	var modal = $(this).closest('.foundry_modal');
-        modal.toggleClass('reveal-modal');
+
+    // Exit modals
+    $('.foundry_modal[data-show-on-exit]').each(function(){
+        var modal = $(this);
+        var exitSelector = $(modal.attr('data-show-on-exit'));
+        // If a valid selector is found, attach leave event to show modal.
+        if($(exitSelector).length){
+            modal.prepend($('<i class="ti-close close-modal">'));
+            $(document).on('mouseleave', exitSelector, function(){
+                if(!$('body .reveal-modal').length){
+                    if(typeof modal.attr('data-cookie') !== typeof undefined){
+                        if(!mr_cookies.hasItem(modal.attr('data-cookie'))){
+                            modal.addClass('reveal-modal');
+                            $('.modal-screen').addClass('reveal-modal');
+                        }
+                    }else{
+                        modal.addClass('reveal-modal');
+                        $('.modal-screen').addClass('reveal-modal');
+                    }
+                }
+            });
+        }
+    });
+
+    // Autoclose modals
+
+    $('.foundry_modal[data-hide-after]').each(function(){
+        var modal = $(this);
+        var delay = modal.attr('data-hide-after');
         if(typeof modal.attr('data-cookie') != "undefined"){
+            if(!mr_cookies.hasItem(modal.attr('data-cookie'))){
+                setTimeout(function(){
+                if(!modal.hasClass('modal-acknowledged')){
+                    modal.removeClass('reveal-modal');
+                    $('.modal-screen').removeClass('reveal-modal');
+                }
+                },delay); 
+            }
+        }else{
+            setTimeout(function(){
+                if(!modal.hasClass('modal-acknowledged')){
+                    modal.removeClass('reveal-modal');
+                    $('.modal-screen').removeClass('reveal-modal');
+                }
+            },delay); 
+        }
+    });
+    
+    jQuery('.close-modal:not(.modal-strip .close-modal)').unbind('click').click(function(){
+    	var modal = jQuery(this).closest('.foundry_modal');
+        modal.toggleClass('reveal-modal');
+        if(typeof modal.attr('data-cookie') !== "undefined"){
             mr_cookies.setItem(modal.attr('data-cookie'), "true", Infinity);
         }
-    	
-        $('.modal-screen').toggleClass('reveal-modal');
+    	if(modal.find('iframe').length){
+            modal.find('iframe').attr('src', '');
+        }
+        jQuery('.modal-screen').removeClass('reveal-modal');
     });
     
-    $('.modal-screen').click(function(){
-    	$('.foundry_modal.reveal-modal').toggleClass('reveal-modal');
-    	$(this).toggleClass('reveal-modal');
+    jQuery('.modal-screen').unbind('click').click(function(){
+        if(jQuery('.foundry_modal.reveal-modal').find('iframe').length){
+            jQuery('.foundry_modal.reveal-modal').find('iframe').attr('src', '');
+        }
+    	jQuery('.foundry_modal.reveal-modal').toggleClass('reveal-modal');
+    	jQuery(this).toggleClass('reveal-modal');
     });
     
-    $(document).keyup(function(e) {
+    jQuery(document).keyup(function(e) {
 		 if (e.keyCode == 27) { // escape key maps to keycode `27`
-			$('.foundry_modal').removeClass('reveal-modal');
-			$('.modal-screen').removeClass('reveal-modal');
+            if(jQuery('.foundry_modal').find('iframe').length){
+                jQuery('.foundry_modal').find('iframe').attr('src', '');
+            }
+			jQuery('.foundry_modal').removeClass('reveal-modal');
+			jQuery('.modal-screen').removeClass('reveal-modal');
 		}
 	});
     
     // Modal Strips
     
-    $('.modal-strip').each(function(){
-    	if(!$(this).find('.close-modal').length){
-    		$(this).append($('<i class="ti-close close-modal">'));
+    jQuery('.modal-strip').each(function(){
+    	if(!jQuery(this).find('.close-modal').length){
+    		jQuery(this).append(jQuery('<i class="ti-close close-modal">'));
     	}
-    	var modal = $(this);
+    	var modal = jQuery(this);
 
         if(typeof modal.attr('data-cookie') != "undefined"){
            
@@ -654,112 +714,23 @@ function capitaliseFirstLetter(string)
         }
     });
     
-    $('.modal-strip .close-modal').click(function(){
-        var modal = $(this).closest('.modal-strip');
+    jQuery('.modal-strip .close-modal').click(function(){
+        var modal = jQuery(this).closest('.modal-strip');
         if(typeof modal.attr('data-cookie') != "undefined"){
             mr_cookies.setItem(modal.attr('data-cookie'), "true", Infinity);
         }
-    	$(this).closest('.modal-strip').removeClass('reveal-modal');
+    	jQuery(this).closest('.modal-strip').removeClass('reveal-modal');
     	return false;
     });
 
 
     // Video Modals
-    $('section').closest('body').find('.modal-video[video-link]').remove();
 
-    $('.modal-video-container').each(function(index) {
-        $(this).find('.play-button').attr('video-link', index);
-        $(this).find('.modal-video').clone().appendTo('body').attr('video-link', index);
+    jQuery('.close-iframe').click(function() {
+        jQuery(this).closest('.modal-video').removeClass('reveal-modal');
+        jQuery(this).siblings('iframe').attr('src', '');
+        jQuery(this).siblings('video').get(0).pause();
     });
-
-    $('.modal-video-container .play-button').click(function() {
-        var linkedVideo = $('section').closest('body').find('.modal-video[video-link="' + $(this).attr('video-link') + '"]');
-        linkedVideo.toggleClass('reveal-modal');
-
-        if (linkedVideo.find('video').length) {
-            linkedVideo.find('video').get(0).play();
-        }
-
-        if (linkedVideo.find('iframe').length) {
-            var iframe = linkedVideo.find('iframe');
-            var iframeSrc = iframe.attr('data-src');
-            var autoplayMsg;
-            if(iframeSrc.indexOf('vimeo') > -1){
-            	autoplayMsg = '&autoplay=1';
-            }else{
-            	autoplayMsg = '?autoplay-1';
-            }
-            var iframeSrc = iframe.attr('data-src') + autoplayMsg;
-            iframe.attr('src', iframeSrc);
-        }
-    });
-
-    $('section').closest('body').find('.close-iframe').click(function() {
-        $(this).closest('.modal-video').toggleClass('reveal-modal');
-        $(this).siblings('iframe').attr('src', '');
-        $(this).siblings('video').get(0).pause();
-    });
-
-    // Local Videos
-
-    $('section').closest('body').find('.local-video-container .play-button').click(function() {
-        $(this).siblings('.background-image-holder').removeClass('fadeIn');
-        $(this).siblings('.background-image-holder').css('z-index', -1);
-        $(this).css('opacity', 0);
-        $(this).siblings('video').get(0).play();
-    });
-
-    // Youtube Videos
-
-    $('section').closest('body').find('.player').each(function() {
-        var src = $(this).attr('data-video-id');
-        var startat = $(this).attr('data-start-at');
-        $(this).attr('data-property', "{videoURL:'http://youtu.be/" + src + "',containment:'self',autoPlay:true, mute:true, startAt:" + startat + ", opacity:1, showControls:false}");
-    });
-
-	if($('.player').length){
-    	$('section').closest('body').find(".player").YTPlayer();
-    }
-
-var mr_cookies = {
-  getItem: function (sKey) {
-    if (!sKey) { return null; }
-    return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || null;
-  },
-  setItem: function (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
-    if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) { return false; }
-    var sExpires = "";
-    if (vEnd) {
-      switch (vEnd.constructor) {
-        case Number:
-          sExpires = vEnd === Infinity ? "; expires=Fri, 31 Dec 9999 23:59:59 GMT" : "; max-age=" + vEnd;
-          break;
-        case String:
-          sExpires = "; expires=" + vEnd;
-          break;
-        case Date:
-          sExpires = "; expires=" + vEnd.toUTCString();
-          break;
-      }
-    }
-    document.cookie = encodeURIComponent(sKey) + "=" + encodeURIComponent(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "");
-    return true;
-  },
-  removeItem: function (sKey, sPath, sDomain) {
-    if (!this.hasItem(sKey)) { return false; }
-    document.cookie = encodeURIComponent(sKey) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "");
-    return true;
-  },
-  hasItem: function (sKey) {
-    if (!sKey) { return false; }
-    return (new RegExp("(?:^|;\\s*)" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=")).test(document.cookie);
-  },
-  keys: function () {
-    var aKeys = document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g, "").split(/\s*(?:\=[^;]*)?;\s*/);
-    for (var nLen = aKeys.length, nIdx = 0; nIdx < nLen; nIdx++) { aKeys[nIdx] = decodeURIComponent(aKeys[nIdx]); }
-    return aKeys;
-  }
-};
 
 /*\
 |*|  END COOKIE LIBRARY

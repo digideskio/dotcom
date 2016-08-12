@@ -22,7 +22,7 @@
 						<div class="col-xs-12">
 							<div class="footer-lower">
 								<a class="text-link" href="mailto:hello@praytellagency.com" title="Say Hello!">hello@PraytellAgency.com <i class="icon arrow_right"></i></a>
-								<span class="copyright">© Copyright Praytell</span>
+								<span class="copyright">© 2016 Praytell. All Rights Reserved.</span>
 							</div>
 						</div>
 					</div>

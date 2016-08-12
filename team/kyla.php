@@ -43,7 +43,7 @@ $breadcrumb="Who We Are";
 								<div class="narrow-feature">
 									<i class="icon ion-ios-star-outline"></i>
 									<div class="content">
-										<h1>13<sub>countries</sub></h1>
+										<h1>12<sub>countries</sub></h1>
 										<p>Performed in</p>
 									</div>
 								</div>
@@ -105,22 +105,6 @@ $breadcrumb="Who We Are";
 			</section>
             
 			
-			<section class="instagram-1">
-				<div class="instafeed" data-user-name="kygwen">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> @kygwen</h2><br>
-								
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
 	
     
     <?php 

@@ -64,8 +64,8 @@ $breadcrumb="Who We Are";
 								<div class="narrow-feature">
 									<i class="icon ion-android-walk"></i>
 									<div class="content">
-										<h1>7<sub>years</sub></h1>
-										<p>How long I lasted in Brooklyn before heading back to the west coast</p>
+										<h1>8<sub>mins</sub></h1>
+										<p>How long it takes me to walk home from work</p>
 									</div>
 								</div>
 							</div>
@@ -103,22 +103,6 @@ $breadcrumb="Who We Are";
 			</section>
             
 			
-			<section class="instagram-1">
-				<div class="instafeed" data-user-name="jademangahis">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> @jademangahis</h2><br>
-								<span class="text-white">LA to New York. Avid people watcher.</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
 	
     
     <?php 

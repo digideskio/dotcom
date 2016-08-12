@@ -13,8 +13,8 @@
 var videoStorage = [ 
     'video/shark',
 	'video/flowers',
-	'video/pony',
-	'video/winter'
+	'video/pony'
+	
 	
 ],
     video = document.querySelector('video'),

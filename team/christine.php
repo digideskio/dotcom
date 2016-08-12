@@ -46,7 +46,6 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>48<sub></sub></h1>
 										<p>visits to Disney World</p>
-                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -57,7 +56,6 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>874,255,300<sub></sub></h1>
 										<p>smiles per year on Belle my bike</p>
-                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -107,21 +105,6 @@ $breadcrumb="Who We Are";
 				</div>
 			</section>
             
-			<section class="instagram-1">
-				<div class="instafeed" data-user-name="christinehaueryou">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> @christinehaueryou</h2><br>
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
 	
     
     <?php 

@@ -24,7 +24,7 @@ $breadcrumb="Who We Are";
                         <div class="row">
 								<div class="team-member-title">
                                     <div class="detail-line"></div>
-                                    <h5>Super Intern</h5>
+                                    <h5>Strategist</h5>
                                         <h1 class="text"><span id="typed"></span></h1>
                                 </div>
                     	</div>
@@ -43,7 +43,7 @@ $breadcrumb="Who We Are";
 								<div class="narrow-feature">
 									<i class="icon ion-ios-musical-notes"></i>
 									<div class="content">
-										<h1>10<sub></sub></h1>
+										<h1>8<sub></sub></h1>
 										<p>music festivals I've attended so far #millennial</p>
 									</div>
 								</div>
@@ -89,38 +89,6 @@ $breadcrumb="Who We Are";
 			</section>     
             
                    
-			<!--<section class="twitter-1">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-7 col-sm-9">
-							<i class="icon ion-social-twitter-outline text-white"></i>
-							<div class="twitter-feed">
-								<div class="tweets-feed tweets-slider" data-widget-id="">
-								</div>
-							</div>
-							<span class="text-white">Follow <a href="https://twitter.com/"></a></span>
-						</div>
-					</div>
-				</div>
-			</section>-->
-            
-			
-			<section class="instagram-1">
-				<div class="instafeed" data-user-name="paige_nora">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> @paige_nora</h2><br>
-								
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
 	
     
     <?php 

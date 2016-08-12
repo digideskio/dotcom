@@ -46,7 +46,6 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>8<sub>hours</sub></h1>
 										<p>of WNYC listened a week</p>
-                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -57,7 +56,6 @@ $breadcrumb="Who We Are";
 									<div class="content">
 										<h1>10<sub></sub></h1>
 										<p>Toni Morrison novels read</p>
-                                        <p>&nbsp;</p>
 									</div>
 								</div>
 							</div>
@@ -104,21 +102,6 @@ $breadcrumb="Who We Are";
 			</section>
             
 			
-			<section class="instagram-1">
-				<div class="instafeed" data-user-name="mollyhess325">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> @mollyhess325</h2><br>
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
 	
     
     <?php 

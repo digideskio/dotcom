@@ -85,38 +85,7 @@ $breadcrumb="Who We Are";
 					</div>
 				</div>
 			</section>     
-                
-			<section class="twitter-1">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-7 col-sm-9">
-							<i class="icon ion-social-twitter-outline text-white"></i>
-							<div class="twitter-feed">
-								<div class="tweets-feed tweets-slider" data-widget-id="628926425433812993">
-								</div>
-							</div>
-							<span class="text-white">Follow <a href="https://twitter.com/smfirko">@smfirko</a></span>
-						</div>
-					</div>
-				</div>
-			</section>
             
-			
-			<section class="instagram-1">
-				<div class="instafeed" data-user-name="firklez">
-					<ul></ul>
-				</div>
-			
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="#">
-								<h2 class="text-white"><i class="icon social_instagram"></i> @firklez</h2><br>
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
 	
     
     <?php 

@@ -25,7 +25,7 @@
         <link href="/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="/css/theme.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="/css/custom.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="http://fonts.googleapis.com/css?family=Roboto:100,400,300,700,400italic,500%7CMontserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:100,400,300,700,400italic,500%7CMontserrat:400,700" rel="stylesheet" type="text/css">
     	<link href="/css/typed.css" rel="stylesheet"/>
         
     </head>
