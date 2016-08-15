@@ -130,7 +130,7 @@ $breadcrumb="";
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
                             <p class="super-lead move-up">
-                            Praytell is a Creative Communications agency blending traditional PR with new school social and digital. An experienced team with media, design, and tech chops ready to shake things up.
+                            Praytell is a creative communications agency blending traditional PR with new school social and digital. An experienced team with media, design, and tech chops ready to shake things up.
                             </p>
 					</div>
 				</div>
