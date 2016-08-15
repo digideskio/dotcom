@@ -20,10 +20,10 @@ $breadcrumb="";
                  <img src="img/project-logo.png" width="200" />
                  <h2 class="uppercase text-white text-tracking">Praytell joins the<br>Project Worldwide Family</h2>
                  <p class="lead text-white mb48">
-                 Lorem ipsum dolor sit amet consectetur adipiscing<br>elit do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Big news for our Praytell family—we’re joining one of the most creative, innovative, independent agency networks in the world.
                  </p>
                 
-                <a class="btn btn-lg text-white" href="http://www.praytellagency.com/blog/" target="_blank">Read All About It</a>
+                <a class="btn btn-lg text-white" href="https://medium.com/@Andy_Praytell/why-we-sold-1dfd290923b2#.npghvzsqd" target="_blank">Read All About It</a>
             </div>
                                 
                                 
