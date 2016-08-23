@@ -127,14 +127,26 @@ $breadcrumb="Contact";
 								<p class="super-lead">
 									We are currently hiring! We're always interested in hearing from killer candidates who are looking for something different. <a href="mailto:jobs@praytellagency.com">Drop us a line</a> and tell us a bit about yourself, we'll try to respond as quickly as we can. 
 								</p>
-                                
+                               
+                                <div class="item">
+									<div class="description">
+										<h2>Junior Analyst</h2>
+                                        <h5>Brooklyn, NY</h5>
+										<p>
+											Praytell is looking for a junior analyst to join our creative communications agency. 
+										</p>
+									</div>
+									<div class="action">
+										<a href="jobs/junior-analyst" class="btn">Learn More</a>
+									</div>
+								</div>
 							
                                 
                                 
                                 
 								<div class="item">
 									<div class="description">
-										<h2>Account Executive</h2>
+										<h2>Digital/Social Account Executive</h2>
                                         <h5>San Francisco, CA</h5>
 										<p>
 											Praytell is looking for a digital account executive to join our growing creative communications agency. 

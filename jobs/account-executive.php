@@ -1,5 +1,5 @@
 <?php
-$title=" Account Executive";
+$title="Digital/Social Account Executive";
 $description="Praytell is a Brooklyn-based creative communications agency blending traditional PR with new school social and digital. An experienced team with media, design, and tech chops ready to shake things up.";
 $breadcrumb="Jobs";
  ?>
@@ -37,7 +37,7 @@ $breadcrumb="Jobs";
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 col-sm-12">
 							
-                                <p class="super-lead">Praytell is looking for a digital account executive to join our growing creative communications agency.</p>
+                                <p class="super-lead">Praytell is looking for a digital/social account executive to join our growing creative communications agency.</p>
                                 
                                 <p class="lead">Our San Francisco office is on a roll we’re looking for a savvy and smart team player to help support our expanding client roster. It’s an exciting time to join team Praytell, it really is. With PRWeek Agency of the Year, Holmes Best New Agency and PRWeek Best Places to Work awards under our belt, our 45+ team has never been stronger. We've got killer client partners across a mix of industries, a ridiculous new business pipeline, culture you can’t beat, and some serious momentum. If you enjoy managing forward thinking clients and working in alongside teams of smart and passionate people, this is the gig you’ve been waiting for (assuming you’re awesome, crush client-facing communication and also want to change the world).</p>
 
@@ -60,7 +60,7 @@ $breadcrumb="Jobs";
                     	<div class="col-md-8 col-md-offset-2 col-sm-12">
                         
                         <h3 class="color-accent">Role</h3>
-                        <p>Account Executive</p>
+                        <p>Digital/Social Account Executive</p>
                         
                         <h3 class="color-accent">Time commitment</h3>
                         <p>Full Time, Start ASAP</p>
@@ -140,7 +140,7 @@ $breadcrumb="Jobs";
         $(function(){
     
             $("#typed").typed({
-                strings: [ "Account Executive"],
+                strings: [ "Digital/Social Account Executive"],
                 typeSpeed: 2,
                 backDelay: 2000,
 				// backspacing speed
