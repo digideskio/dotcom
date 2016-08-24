@@ -39,11 +39,11 @@ $breadcrumb="Jobs";
 							
                                 <p class="super-lead">Praytell is looking for a junior analyst to join our creative communications agency. We're 40+ strong in Brooklyn and beyond, with PRWeek Agency of the Year, Holmes Best New Agency and PRWeek Best Places to Work awards under our belt.</p>
                                 
-                                <p class="lead">We've got killer client partners, culture you can’t beat and serious momentum. Real talk, if you’re analytical, super detail oriented and interested in combining ideas, behavioral insights and creative executions into breakthrough social media campaigns for forward thinking clients and enjoy teams filled with smart and passionate people, this is the gig you’ve been waiting for.</p>
+                                <p class="lead">We've got killer client partners, culture you can’t beat and serious momentum. Real talk, if you’re analytical, super detail oriented and interested in combining ideas, behavioral insights and creative executions into breakthrough social media campaigns, this is the gig you’ve been waiting for.</p>
 
-								<p class="lead">To support our rapidly growing team, we’re looking to hire a junior analyst with 0-1 years of experience. If you’re interested in helping us define the future of advertising, are deeply curious about how people behave online, don’t mind spending hours in a spreadsheet in order to organize and analyze data and take pride in presenting your A+ work, then we want to hear from you.</p>
+								<p class="lead">To support our smart and passionate team, we’re looking to hire a junior analyst with 1 year of experience or less. If you’re interested in helping us define the future of advertising, are deeply curious about how people behave online, don’t mind spending hours in a spreadsheet in order to organize and analyze data, and take pride in presenting your work, then we want to hear from you.</p>
                             
-                                <p class="lead">If it sounds like a fit, send us an email at jobs@praytellagency.com that tells us why you're the right person to join us on this incredible journey (GIFs = bonus points). And like any good pitch, the subject line matters, big time.</p>
+                                <p class="lead">If it sounds like a fit, send us an email at jobs@praytellagency.com that tells us why you're the right person to join us (GIFs = bonus points). And like any good pitch, the subject line matters, big time.</p>
 
 						</div>
 					</div>
