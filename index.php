@@ -12,7 +12,7 @@ $breadcrumb="";
 
 			<!--------POPUP MODAL---------->
             
-            <div class="foundry_modal text-center image-bg dark-overlay" data-time-delay="0" data-hide-after="10000">
+            <!---<div class="foundry_modal text-center image-bg dark-overlay" data-time-delay="0" data-hide-after="10000">
                  <div class="background-image-holder">
                  <img alt="Background" class="background-image" src="img/celebration.jpg" />
                  </div>
@@ -24,7 +24,7 @@ $breadcrumb="";
                  </p>
                 
                 <a class="btn btn-lg text-white" href="https://medium.com/@Andy_Praytell/why-we-sold-1dfd290923b2#.npghvzsqd" target="_blank">Read All About It</a>
-            </div>
+            </div>-->
                                 
                                 
 			<!------END POPUP MODAL-------->
