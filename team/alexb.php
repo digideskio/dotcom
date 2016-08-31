@@ -13,7 +13,7 @@ $breadcrumb="Who We Are";
 		
 				<div class="image-holder col-md-4 col-sm-4 pull-left">
 					<div class="background-image-holder">
-						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/alex-hover.jpg">
+						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="../img/team/alexB-hover.png">
 					</div>
 				</div>
 		
@@ -33,7 +33,7 @@ $breadcrumb="Who We Are";
 
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-ios-personadd-outline"></i>
+									<i class="icon ion-heart"></i>
 									<div class="content">
 										<h1>7</h1>
 										<p>nieces and nephews I have (possibly more in the near future)</p>
@@ -43,7 +43,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-jet"></i>
+									<i class="icon ion-social-octocat"></i>
 									<div class="content">
 										<h1>1</h1>
 										<p>Siamese cat by the name of Sterling who probably calls me his servant</p>
@@ -54,7 +54,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-world"></i>
+									<i class="icon ion-tshirt"></i>
 									<div class="content">
 										<h1>4</h1>
 										<p>lint rollers I keep on hand for all the cat hair</p>
@@ -64,7 +64,7 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-star"></i>
+									<i class="icon ion-bowtie"></i>
 									<div class="content">
 										<h1>90</h1>
 										<p>percentage of my clothing that is black</p>
@@ -117,7 +117,7 @@ $breadcrumb="Who We Are";
         $(function(){
     
             $("#typed").typed({
-                strings: ["Alex Howe^6000", "Alexis Bledel"],
+                strings: ["Alex Blynn^6000", "Alexis Bledel"],
                 typeSpeed: 10,
                 backDelay: 2000,
             	backSpeed: -30,

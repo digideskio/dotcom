@@ -111,6 +111,20 @@ $breadcrumb="Who We Are";
 								<span>Senior PR Strategist</span>
                             	</div>
 							</div>
+                         <!-- ALEX BLYNN-->
+                            <div class="col-sm-6 team-member col-md-3">
+                            	<div id="profile" class="small">
+                                	<a href="team/alexb">
+                                    <img alt="team member" src="img/team/alexB-hover.png" class="bottom">
+                                    <img alt="team member" src="img/team/alexB.png" class="top">
+                                    </a>
+                                </div>
+                                <div>
+								<h4><a href="team/alex">Alex Blynn</a></h4>
+								<span>PR Strategist</span>
+                            	</div>
+							</div>
+                        
                             <!-- ALEX -->
                             <div class="col-sm-6 team-member col-md-3">
                             	<div id="profile" class="small">
@@ -462,19 +476,6 @@ $breadcrumb="Who We Are";
 								<span>Senior Strategist</span>
                             	</div>
 							</div>
-                            <!-- NICO -->
-                            <div class="col-sm-6 team-member col-md-3">
-                            	<div id="profile" class="small">
-                                	<a href="team/nico">
-                                    <img alt="team member" src="img/team/nico-hover.jpg" class="bottom">
-                                    <img alt="team member" src="img/team/nico.jpg" class="top">
-                                    </a>
-                                </div>
-                                <div>
-								<h4><a href="team/nico">Nico Gendron</a></h4>
-								<span>Junior Strategist</span>
-                            	</div>
-							</div>
                             <!-- NATE -->
                             <div class="col-sm-6 team-member col-md-3">
                             	<div id="profile" class="small">
@@ -686,6 +687,12 @@ $breadcrumb="Who We Are";
 								<a href="team/anne"><img alt="team member" src="img/team/anne.jpg"></a>
 								<h4><a href="team/anne">Anne Blessing Tenney</a></h4>
 								<span>Senior PR Strategist</span>
+							</div>
+                            <!-- Alex Blynn -->
+							<div class="col-xs-6 team-member col-md-3">
+								<a href="team/alexb"><img alt="team member" src="img/team/alexB.png"></a>
+								<h4><a href="team/alex">Alex Blynn</a></h4>
+								<span>PR Strategist</span>
 							</div>
                             <!-- Alex -->
 							<div class="col-xs-6 team-member col-md-3">
