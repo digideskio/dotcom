@@ -180,6 +180,19 @@ $breadcrumb="Who We Are";
                             <!-- ERIKA -->
                             <div class="col-sm-6 team-member col-md-3">
                             	<div id="profile" class="small">
+                                	<a href="team/erin">
+                                    <img alt="team member" src="img/team/erin-hover.jpg" class="bottom">
+                                    <img alt="team member" src="img/team/erin.jpg" class="top">
+                                    </a>
+                                </div>
+                                <div>
+								<h4><a href="team/erin">Erin Fisher</a></h4>
+								<span>Community Manager</span>
+                            	</div>
+							</div>
+                             <!-- ERIKA -->
+                            <div class="col-sm-6 team-member col-md-3">
+                            	<div id="profile" class="small">
                                 	<a href="team/erika">
                                     <img alt="team member" src="img/team/erika-hover.jpg" class="bottom">
                                     <img alt="team member" src="img/team/erika.jpg" class="top">
@@ -226,7 +239,7 @@ $breadcrumb="Who We Are";
                                 </div>
                                 <div>
 								<h4><a href="team/jared">Jared Paul</a></h4>
-								<span>Strategist</span>
+								<span>Director of New Business</span>
                             	</div>
 							</div>
                             <!-- JENNIFER -->
@@ -304,7 +317,7 @@ $breadcrumb="Who We Are";
                                 </div>
                                 <div>
 								<h4><a href="team/justin">Justin Jahng</a></h4>
-								<span>Strategist</span>
+								<span>Senior Strategist</span>
                             	</div>
 							</div>
                             <!-- JEANNIE -->
@@ -461,6 +474,19 @@ $breadcrumb="Who We Are";
                                 <div>
 								<h4><a href="team/alex">Meagan Fisher</a></h4>
 								<span>Senior PR Strategist</span>
+                            	</div>
+							</div>
+                         <!-- MICA -->
+                            <div class="col-sm-6 team-member col-md-3">
+                            	<div id="profile" class="small">
+                                	<a href="team/meagan">
+                                    <img alt="team member" src="img/team/mica-hover.jpg" class="bottom">
+                                    <img alt="team member" src="img/team/mica.jpg" class="top">
+                                    </a>
+                                </div>
+                                <div>
+								<h4><a href="team/alex">Mica Hahn</a></h4>
+								<span>Media Relations Strategist</span>
                             	</div>
 							</div>
                             <!-- MOLLY -->

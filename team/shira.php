@@ -1,5 +1,5 @@
 <?php
-$title="Olivia Gulin";
+$title="Mica Hahn";
 $description="Praytell is a Brooklyn-based creative communications agency blending traditional PR with new school social and digital. An experienced team with media, design, and tech chops ready to shake things up.";
 $breadcrumb="Who We Are";
  ?>
@@ -13,7 +13,7 @@ $breadcrumb="Who We Are";
 		
 				<div class="image-holder col-md-4 col-sm-4 pull-left">
 					<div class="background-image-holder">
-						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/olivia-hover.jpg">
+						<img alt="<?php echo $title ?> // Praytell" title="<?php echo $title ?> // Praytell" class="background-image" src="/img/team/mica-hover.jpg">
 					</div>
 				</div>	
 		
@@ -24,7 +24,7 @@ $breadcrumb="Who We Are";
                         <div class="row">
 								<div class="team-member-title">
                                     <div class="detail-line"></div>
-                                    <h5>Designer</h5>
+                                    <h5>Media Relations Strategist</h5>
                                         <h1 class="text"><span id="typed"></span></h1>
                                 </div>
                     	</div>
@@ -32,40 +32,40 @@ $breadcrumb="Who We Are";
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-android-hand"></i>
+									<i class="icon pe-7s-flag"></i>
 									<div class="content">
-										<h1>0</h1>
-										<p>time anybody has for that</p>
+										<h1>4<sub></sub></h1>
+										<p>nationalities in my family </p>
 									</div>
 								</div>
 							</div>
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-ios-calculator-outline"></i>
+									<i class="icon pe-7s-cup"></i>
 									<div class="content">
-										<h1>100<sub>%</sub></h1>
-										<p>gangster</p>
+										<h1>15<sub></sub></h1>
+										<p>years I swam competetively</p>
 									</div>
 								</div>
 							</div>
 						
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon ion-battery-full"></i>
+									<i class="icon ion-android-restaurant"></i>
 									<div class="content">
-										<h1>1<sub>hundo</sub></h1>
-										<p>how I keep it</p>
+										<h1>48<sub></sub></h1>
+										<p>average packs of ramen I eat in a year</p>
 									</div>
 								</div>
 							</div>
                             
 							<div class="col-md-6 col-sm-6 col-xs-6">
 								<div class="narrow-feature">
-									<i class="icon pe-7s-close"></i>
+									<i class="icon pe-7s-car"></i>
 									<div class="content">
-										<h1>0</h1>
-										<p>Scrubs wanted</p>
+										<h1>0<sub></sub></h1>
+										<p>the number of times I've driven a car</p>
 									</div>
 								</div>
 							</div>
@@ -92,10 +92,10 @@ $breadcrumb="Who We Are";
 						<div class="col-md-7 col-sm-9">
 							<i class="icon ion-social-twitter-outline text-white"></i>
 							<div class="twitter-feed">
-								<div class="tweets-feed tweets-slider" data-widget-id="264067759523106816">
+								<div class="tweets-feed tweets-slider" data-widget-id="628948029765251072">
 								</div>
 							</div>
-							<span class="text-white">Follow <a href="https://twitter.com/hellolittlefish">@hellolittlefish</a></span>
+							<span class="text-white">Follow <a href="https://twitter.com/MICAplease">@MICAplease</a></span>
 						</div>
 					</div>
 				</div>
@@ -112,7 +112,7 @@ $breadcrumb="Who We Are";
         $(function(){
     
             $("#typed").typed({
-                strings: ["Olivia Gulin^6000", "OG", "Olive"],
+                strings: ["Mica Hahn^6000", "Meeks"],
                 typeSpeed: 10,
                 backDelay: 2000,
             	backSpeed: -30,
