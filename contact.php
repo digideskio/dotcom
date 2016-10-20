@@ -117,10 +117,10 @@ $breadcrumb="Contact";
 								<div class="detail-line"></div>
 								<h5>Jobs</h5>
 								<!--<p class="super-lead">
-									We aren’t currently hiring, BUT we’re always interested in hearing from killer candidates who are looking for something different. <a href="mailto:jobs@praytellstrategy.com">Drop us a line</a> and tell us a bit about yourself, we’ll try to respond as quickly as we can. 
-								</p>-->
+									We aren't currently hiring, BUT we're always interested in hearing from killer candidates who are looking for something different. <a href="mailto:jobs@praytellstrategy.com">Drop us a line</a> and tell us a bit about yourself, we'll try to respond as quickly as we can. 
+								</p>
                                 
-                                <!--<div class="text-center">
+                                <div class="text-center">
                                 	<a href="mailto:jobs@praytellagency.com" class="btn">Drop us a line</a>
                                 </div>-->
 
@@ -130,14 +130,14 @@ $breadcrumb="Contact";
                                
                                 <div class="item">
 									<div class="description">
-										<h2>Junior Analyst</h2>
-                                        <h5>Brooklyn, NY</h5>
+										<h2>PR and Social Media Intern</h2>
+                                        <h5>Los Angeles, CA</h5>
 										<p>
-											Praytell is looking for a junior analyst to join our creative communications agency. 
+											Praytell is looking for smart, savvy public relations interns to come into the office and help the team out 2-3 days/week for at least a 3-month period. 
 										</p>
 									</div>
 									<div class="action">
-										<a href="jobs/junior-analyst" class="btn">Learn More</a>
+										<a href="jobs/internship-LA" class="btn">Learn More</a>
 									</div>
 								</div>
 							
@@ -146,14 +146,14 @@ $breadcrumb="Contact";
                                 
 								<div class="item">
 									<div class="description">
-										<h2>Digital/Social Account Executive</h2>
-                                        <h5>San Francisco, CA</h5>
+										<h2>Digital Analytics Associate</h2>
+                                        <h5>Brooklyn, NY</h5>
 										<p>
-											Praytell is looking for a digital account executive to join our growing creative communications agency. 
+											Praytell is looking for a Digital Analytics Associate to join our creative communications agency. We're 40+ strong in Brooklyn and beyond, with PRWeek Agency of the Year, Holmes Best New Agency and PRWeek Best Places to Work awards under our belt. 
 										</p>
 									</div>
 									<div class="action">
-										<a href="jobs/account-executive" class="btn">Learn More</a>
+										<a href="jobs/digital-analytics-associate" class="btn">Learn More</a>
 									</div>
 								</div>
                                 
